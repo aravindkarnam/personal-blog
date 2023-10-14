@@ -362,7 +362,7 @@ const BlogIndex = ({ data, location }) => {
                       rel="noopener noreferrer"
                     >
                       Download CV
-                      <AiOutlineDownload className="h-4 w-4"/>
+                      <AiOutlineDownload className="h-4 w-4" />
                     </a>
                   </div>
                 </div>
@@ -382,7 +382,10 @@ export default BlogIndex
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="All posts" />
+export const Head = ({ data }) => {
+  const siteTitle = data.site.siteMetadata?.title || `Home`
+  return <Seo title={siteTitle} />
+}
 
 export const pageQuery = graphql`
   {
