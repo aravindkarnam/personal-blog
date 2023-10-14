@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Articles on product management, user adoption, user experience, design, customer onboarding, product led growth, problem solving. Helping programmers break into product management careers]]></description><link>https://aravindkarnam.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 14 Oct 2023 05:48:37 GMT</lastBuildDate><item><title><![CDATA[Hackers guide to hosting Cheap and effortless, yet full-featured personal blog]]></title><description><![CDATA[GitHub pages + Gatsby + Cloudflare = Cheapest, effortless setup, full-featured personal blog. Costs less than 10$/year. Get 100/10…]]></description><link>https://aravindkarnam.com/blog-hosting/</link><guid isPermaLink="false">https://aravindkarnam.com/blog-hosting/</guid><pubDate>Thu, 22 Dec 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;GitHub pages + Gatsby + Cloudflare = Cheapest, effortless setup, full-featured personal blog.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Costs less than &lt;strong&gt;10$/year&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Get &lt;strong&gt;100/100 &lt;a href=&quot;https://mcdsystems.co.uk/lighthouse-scores-what-are-they-and-why-are-they-important/&quot;&gt;lighthouse score&lt;/a&gt;&lt;/strong&gt; on all categories.&lt;/li&gt;
+&lt;li&gt;No extra coding required.&lt;/li&gt;
+&lt;li&gt;Edit your blog posts in markdown with ability to insert optimised images and code snippets.&lt;/li&gt;
+&lt;li&gt;Beautiful typography and simple layout.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 610px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0ddc2c2c7307c6e63cc9a566b0901b0b/5aae9/preview.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.734177215189874%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAABAUlEQVR42q1RS27CMBT03bgVd6jEtrtskJplNsmCAwACscyiSovzgfBtDNRqEtkeFEeJ3JbAhpEsvTfPGr8ZEwBQSunThTujfyCmoCna1qqZ/+FNSFFfbATLskSe53c2VDe5W85IRTiOA8uyWtGK499c1yk94rXvYr9iuueco129gigg30dQfF8LMsbgui5s20aWZfUdIZCmG13HnxsMX0Y4bk8QUmC33WlHl8sZ558SX5M3HAY9sJmlnyDj8QSe58H3fQRBgKIoftmk4RLzxRRRHLW2qiWSJAGlFOHyA/FqjTgKoaSsM2wEpJSduTW9evDlpCvcR+GbvDkneDKeLngFU3UK9vtgO6wAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;preview&quot;
+        title=&quot;&quot;
+        src=&quot;/static/0ddc2c2c7307c6e63cc9a566b0901b0b/5aae9/preview.png&quot;
+        srcset=&quot;/static/0ddc2c2c7307c6e63cc9a566b0901b0b/c26ae/preview.png 158w,
+/static/0ddc2c2c7307c6e63cc9a566b0901b0b/6bdcf/preview.png 315w,
+/static/0ddc2c2c7307c6e63cc9a566b0901b0b/5aae9/preview.png 610w&quot;
+        sizes=&quot;(max-width: 610px) 100vw, 610px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In fact this very blog, that you are reading works the same way. It costs me just about &lt;strong&gt;8$/Year&lt;/strong&gt; and that too only for domain name registration and renewal.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Here&apos;s a step by step guide:&lt;/h3&gt;
+&lt;h5&gt;Step-1: Create a blog powered by Gatsby and get it running on your computer&lt;/h5&gt;
+&lt;p&gt;We&apos;ll be relying on &lt;a href=&quot;https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog&quot;&gt;Gatsby Starter blog&lt;/a&gt; from Gatsby community, for hosting your personal blog. Gatsby is an open source, React-based framework to build fast, secure and powerful websites.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&apos;t worry! You don&apos;t have to learn Gatsby framework, in order to setup your blog. Rudimentary understanding of Markdown, Git and JSON will be sufficient.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Clone the Gatsby starter blog from it&apos;s &lt;a href=&quot;https://github.com/gatsbyjs/gatsby-starter-blog&quot;&gt;github repository&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Run the following command&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/gatsbyjs/gatsby-starter-blog.git&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Prerequisite is that Git is already installed on your computer. If its not installed already, check this &lt;a href=&quot;https://github.com/git-guides/install-git&quot;&gt;link&lt;/a&gt; for installation guidelines.&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;This should have created a folder called &lt;code class=&quot;language-text&quot;&gt;gatsby-starter-blog&lt;/code&gt;. Navigate to this folder and you should find a file structure like below.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 530px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/115b6228282aa963ef0cb2368570cccd/b6a9b/file_structure.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 122.15189873417722%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAABYlAAAWJQFJUiTwAAACmUlEQVR42p1V2XKbQBDMhziWLBYQLOwi7hsJIcCSnf//m07NKK7EN8rD1KIqVdM93b38sHY5LNeHG8RIqw5F26PaD5BBAmMrIRz/3ZiuenUKx4NwNdbuDj8sncISBjwp0bUt+sMBp2GAVgrGZgNTiAVjwDQtrBx9BbQtC0ppHA49tlsH9/crCGHyn5aNCdPaYn0FzGCbJlzpoSgK7HYhbHsLy7L/AzD4C0gM5/kRl8sTtA5uZPkKMMXWcbF1PWRZjrqqUZYlqqqGlN5C0DeAJNGRPo79EfM08y7ruoHjuHh42CwA/QfQVAkC5SNJU3TdHsMwYBwnnE4jzucLryGKYmw2xhd7fQWYwpeSzYjjhGUXRYk8z5EkCYJgx9JvYqg8hTBKWCqxm6aZGbquxN3dT5ZNDD+X/gowg/INJImHtj2gaRreHzFtmpafy7Ji1pTRj0HfAQqkqcYwjOi6Dt3+wIBt2/JvAqUXEeNvAYXKsAsEikJhHM+YpgnDcEKWFXySfDp9X31hzBuGvjQQRT6qqkGSpCyRTErTjKW+yF1kCjPUAmUV4Hx+xjiObAyBzPPMz7RLwxBLXc6gPIEkVdjve94bAVD2qC3E8vtevwHUZEqmMY7XlvQ9NaVmYGJ6U1MML0PX2Mhzibbt2QS6ICiHq9Ua6/UDy6VZlEPaYRiYCEOJOE5ZIhlDp1IB30LUFHKZOr8oh4GmHCo8Pl5wPA54enpmhpRB6jb1mXpNoB+b844hmXJtStt22O8PHB0KNBlDrF5m0eWgfAtRrHA6XSNC7Pr+yIBkym2fABXDDhLorMavywXTOOFyPnMGOUJ1DUEyid2nQ2uwsdrSBRuWMP0Qlo7hRzn8uOBRf04ZZjBcDSGDL0ZD+BHWMsJvdkPfLta9F50AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;File structure&quot;
+        title=&quot;&quot;
+        src=&quot;/static/115b6228282aa963ef0cb2368570cccd/b6a9b/file_structure.png&quot;
+        srcset=&quot;/static/115b6228282aa963ef0cb2368570cccd/c26ae/file_structure.png 158w,
+/static/115b6228282aa963ef0cb2368570cccd/6bdcf/file_structure.png 315w,
+/static/115b6228282aa963ef0cb2368570cccd/b6a9b/file_structure.png 530w&quot;
+        sizes=&quot;(max-width: 530px) 100vw, 530px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;Let&apos;s get the npm packages. These are other libraries and dependancies to be installed to get the blog up and running.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Run the following command in the root folder of &lt;code class=&quot;language-text&quot;&gt;gatsby-starter-blog&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Prerequisite is that Node.js and npm is installed on your computer. If its not installed already, check this &lt;a href=&quot;https://nodejs.org/en/download/package-manager/&quot;&gt;link&lt;/a&gt; for installation guidelines.&lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;Now let&apos;s fire up the blog. Run the following command.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; start&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If everything goes well, when you open &lt;a href=&quot;http://localhost:8000&quot;&gt;http://localhost:8000&lt;/a&gt; in your browser you should see a sample blog up and running.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bc46b998d4dcbe950b43b049bc58234e/6937a/sample_blog.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 98.10126582278481%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAABYlAAAWJQFJUiTwAAACYUlEQVR42q2USU8bQRCF/b+RkLjwAzghgYAYJEtwCtxADhJScggKFsop2MbbrN5mn56exV80jXGIY5ME0dKbfqWeqanqV1UVgDzPKYqCVWs2m/E/q1I+Dg8POfpwxO7uLgcHB2xvb3NyckKj0WBzc5Nqtaqwt7fH/v4+x8fH+L6/8ofKYb1ep1arcXNzw/X1NRcXF+zs7NBsNvlUr3N1dcXZ2RlfPn/h/Pycy8tLsixbH+HW1hYbGxucnp6qKFutljpcdw1/Tblxf8/t7S13d3cqpW63u3BYplRimb/qUIqILEvVi6VAcRwThiFRFCJEjEwSZCIUT4QglQkijhFCrHb4sVbl+7evGIbJYKDR6XTpdDr0NJ2BPaZnjehbY3rmCG04RrMn2OMpURStdugHEYlMkVIiRIKcc5lliKwgkhkizYnTfLGna9Ku8M6rUpbRJEwZB5KhL7A9wchPSPNiUWersK7wK0Uxo2M5tE2HpuWjOYLHUYjMi7dFWCo7GY1wp2MCzyXwn+BMp7iui+s4TOd8MpksuOd5OPOzl2pXypBH4zGmaWKaltoty5rb5h+2rusMh0Ns28Y0TMVfds37i1LMZrSHAQ+WT9sOaFoBLTsgyfI3TZ2nlCcOw5GDF8SEQhIlKVk50vJCoeyel1AdlWUKy0NCOTR0HV0bYGg63ccOpq4rbugGg36fQa+PPtDQBhqmYTzZmo7neniu+1v06g6zVCKlQIonlKolqn8TEvEMoVqtPIvCiDRN16fsxJmCG2d4cfrPAiwX+aKwHwyHH4ZD2/bpT5YafvaLPH/8mkA/AQkE+7IaHinuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Sample blog&quot;
+        title=&quot;&quot;
+        src=&quot;/static/bc46b998d4dcbe950b43b049bc58234e/f058b/sample_blog.png&quot;
+        srcset=&quot;/static/bc46b998d4dcbe950b43b049bc58234e/c26ae/sample_blog.png 158w,
+/static/bc46b998d4dcbe950b43b049bc58234e/6bdcf/sample_blog.png 315w,
+/static/bc46b998d4dcbe950b43b049bc58234e/f058b/sample_blog.png 630w,
+/static/bc46b998d4dcbe950b43b049bc58234e/40601/sample_blog.png 945w,
+/static/bc46b998d4dcbe950b43b049bc58234e/6937a/sample_blog.png 1094w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Look around and check the navigation and aesthetics for yourself. As you can see the author is the creator of the starter blog &lt;strong&gt;&quot;Kyle Mathews&quot;&lt;/strong&gt;. We&apos;ll replace your details and profile pic and customise it for your profile in next step.&lt;/p&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;Open the file &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt; and in here you should see a JSON object called &lt;code class=&quot;language-text&quot;&gt;module.exports&lt;/code&gt; which inturn contains &lt;code class=&quot;language-text&quot;&gt;siteMetadata&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token literal-property property&quot;&gt;siteMetadata&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Gatsby Starter Blog&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Kyle Mathews&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token literal-property property&quot;&gt;summary&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;who lives and works in San Francisco building useful things.&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;A starter blog demonstrating what Gatsby can do.&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;siteUrl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;https://gatsbystarterblogsource.gatsbyjs.io/&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;social&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token literal-property property&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;kylemathews&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You can add/update the details such as title, author of the blog, description, blog url, social media handles etc using the &lt;code class=&quot;language-text&quot;&gt;siteMetadata&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;For example here&apos;s how &lt;code class=&quot;language-text&quot;&gt;siteMetadata&lt;/code&gt; looks like for this blog.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token literal-property property&quot;&gt;siteMetadata&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Hi, I&apos;m Aravind!&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Aravind Karnam.&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token literal-property property&quot;&gt;summary&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;I write about learning, reasoning and building software products. I&apos;m currently building the operating system for modern restaurants &lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Articles on product management, user adoption, user experience, design, customer onboarding, product led growth, problem solving. Helping programmers break into product management careers&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;siteUrl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;https://aravindkarnam.com/&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;social&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token literal-property property&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;aravind_karnam&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token literal-property property&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;aravindkarnam&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token literal-property property&quot;&gt;linkedin&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;aravind-karnam-rajendraprasad/&apos;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;Replace the Profile picture by replacing the image located at &lt;code class=&quot;language-text&quot;&gt;/src/images/profile-pic.png&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you have to change the name of the file or format to say jpg, simply look up the string &quot;profile-pic.png&quot; in &lt;code class=&quot;language-text&quot;&gt;/src/components/bio.js&lt;/code&gt; file and replace it with your new profile pic file name.&lt;/p&gt;
+&lt;p&gt;Similarly you can replace the site favicon by replacing the image located at &lt;code class=&quot;language-text&quot;&gt;/src/images/gatsby-icon.png&lt;/code&gt;. If the filename of image changes, you can lookup string &quot;gatsby-icon.png&quot; in &lt;code class=&quot;language-text&quot;&gt;/gatsby-config.js&lt;/code&gt; file and replace it with new filename.&lt;/p&gt;
+&lt;ol start=&quot;7&quot;&gt;
+&lt;li&gt;Now we have cloned the gatsby-starter-blog, added your details as the author of the blog. Next let&apos;s explore how you can start writing blog posts&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There&apos;s a folder called &lt;code class=&quot;language-text&quot;&gt;/content/blog&lt;/code&gt;. Here you will find a few folders each corresponding to the sample posts that are there on &lt;a href=&quot;http://localhost:8000&quot;&gt;blog&lt;/a&gt; currently running on your computer.&lt;/p&gt;
+&lt;p&gt;For example consider the &lt;code class=&quot;language-text&quot;&gt;hello-world&lt;/code&gt; folder, this corresponds to &lt;a href=&quot;http://localhost:8001/hello-world/&quot;&gt;Hello world&lt;/a&gt; post.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;So, for every blog post you have to create a new folder (name of folder is your choice), and put a &lt;code class=&quot;language-text&quot;&gt;index.md&lt;/code&gt; file in it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For example Inside the &lt;code class=&quot;language-text&quot;&gt;hello-world&lt;/code&gt; folder, there&apos;s a file called &lt;code class=&quot;language-text&quot;&gt;index.md&lt;/code&gt;. It looks as follows.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token front-matter-block&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;token front-matter yaml language-yaml&quot;&gt;title: Hello World
+date: &quot;2015-05-01T22:12:03.284Z&quot;
+description: &quot;Hello World&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;&lt;/span&gt;
+
+This is my first post on my new fake blog! How exciting!
+
+I&apos;m sure I&apos;ll write a lot more interesting things in the future.
+...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Title and description of corresponding post can be set here, and date is corresponding to the date when you publish the article. &lt;strong&gt;Everything following the --- line under description, is the contents of the blog post.&lt;/strong&gt; You can write contents of your blog post in markdown and it&apos;s rendered as expected.&lt;/p&gt;
+&lt;p&gt;If your&apos;e not familiar with markdown, it&apos;s a lightweight text formatting lanuguage using which you can control aspects like headings, bold, italic, code snippets etc. It&apos;s so easy, you can pick it up in minutes. Here&apos;s a &lt;a href=&quot;https://www.markdownguide.org/cheat-sheet/&quot;&gt;syntax cheatsheet&lt;/a&gt; that&apos;ll get you started.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As for images in your blog post, just copy the image to the folder of blog post.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;To embedd it in blog post and refer it in markdown as follows.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Image alt text](./&amp;lt;Name of image file&gt;.&amp;lt;file format&gt;)
+
+for eg:
+![Chinese Salty Egg](./salty_egg.jpg)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h6&gt;So far we have covered.&lt;/h6&gt;
+&lt;ol&gt;
+&lt;li&gt;Cloning gatsby-starter-blog to your computer&lt;/li&gt;
+&lt;li&gt;Get it up and running on your computer&lt;/li&gt;
+&lt;li&gt;Set the site Metadata and update your details as author&lt;/li&gt;
+&lt;li&gt;Create new blog posts and update old ones.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It should be clear by now, that you don&apos;t need to understand Gatsby,react or even javascript to get this up and running. All you need to know is Markdown!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Great! Your blog is ready, but we&apos;ve only got this running on your local computer. Now let&apos;s try to host your site on Github Pages, so the whole world can view your blog!!&lt;/p&gt;
+&lt;h5&gt;Step-2: Publish your blog on GitHub pages&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a new repository on &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;, where you&apos;ll host your blog. You&apos;ll find a section called &quot;Start a new repository&quot;, right on the home page. Choose &lt;strong&gt;public&lt;/strong&gt; repository, if you don&apos;t have GitHub &lt;strong&gt;Pro&lt;/strong&gt; subscription.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GitHub doesn&apos;t allow you to enable pages on Private repositories with free account.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If your username is &quot;wylie-cayote&quot;, then pick the name of repository as &quot;wylie-cayote.github.io&quot;. Final blog will be hosted at &lt;a href=&quot;https://wylie-cayote.github.io&quot;&gt;https://wylie-cayote.github.io&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cc926dd9c8c224586b489ef9920b641c/d52e5/create_new_repo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 127.84810126582278%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAYAAAC3g3x9AAAACXBIWXMAABYlAAAWJQFJUiTwAAAEOklEQVR42o1VW3PbVBCW5diWrPtdsiTLlmRbcuIkTnNpmaSTdloyJb1BoUyBKbQP8BuYYSjDv+CRV/7kx+xKcRNaGB52zl7O7vn27HckQdySIHS2IHREdDrdRhe6EAQRgkj+biPiFsc7Yg+C0Gn9Ypt7Te8NFKyPPkEx30YYZ8jyBaJ4gnQygx+lKKsV+x1vhJ29QwSjMebLPY4tlntsR8kUSVbCC1MIYldCvbPGk+cvcXr+EHfvX+Dpi1d4/PlL1s8fPMK9h5/h8OQUz168wtGdu/juzU+4/+ljvPz2B1xcPmf7+VffcL6w1R9C0WwMZA3SUEdfUlkfSAqkocE+RbOg6DaGqrmJS7LKOsXJLw01Fm55WtZIp3NuM8lmrGdFhUlRIx6XGOcVpuUSWV4hzkqMpwtukfbF44LzaF+U5hC6fRmq4UAzHF5104VmuDAsD5rpMTJVt9km3XIjGJYPzXQZOcV02qfZbAudbh8DWYXYHfB0O1dTaydNUxW7fXTEVjo9XgWxB8olYb2NC3TCH3/+hUdPvoRquozADRLYXsRTG6oWBLEPotf/EYEu9ouvX6OoVhjIegNdd1hUw2Vftz/E1kD5V+n2ZN4j9mTiq4SerMMNx7D9BE6Q8kq2P5qwrVnBRnQ7hH6lWwFU00df1jmH9nPBKC1xeOcc8+01tvdPsL1/jIOTM6yPT1mnJBLF8BoxaSg+VMPjtSepSPMFVge3Gx7SqWFaIJ7MkUwX8KIJorTAaDxDkORIpxXHRtkMWbnEOK8xyuasE8q+rHEntE+g/p1wjMXOLczqfUZJ+mS2w2u+WKHePWJ/Xu1itlzzvrLaYxCEkgr6oymq1WGDcHM3dsitGU4E0x1tfGTrdrTRTS+G5cWb/X1JQxBPkS92G4RumGL34A7myzV21ieMxouyFu0B6tUh6t1Dji2211xMswOYXnMoMaE5NKSXMoTuhLD9Zrp2kLSnN0gIKYnVorqOnISGMhga3CWhFIjdcbHCYv+M3yPd0fr4bHPijeT2aih2RSO1LajbAaJx+f4O6WRCGCQFsmLJU/XjKcKkQJTN2B+0dpjkNwvKOiziYZy/L6hZDc+IMqNxyVO7SviYfFDQSxATbYjYYTzBpKiQTCsU1S7WR6fMekqg9j4mersSkE3BSdUMxXBCHoDhjuATkYsaaVHxnYRpjpC/dWXTblqwP4hz9tFVEQ83Bbllw8dw4GDQt2CZMXxvAsdOIUs2pL4FRXFvtmx4N/SbCLsyzDzG/O0R6re3Ub4+wOz7Wyz1mxNUPx4juFtC1X3m3vUPxT+HkuQ1hK4ow5zH2P/5HPd+e4bbv1zg7NdLnL27xPm7pzj9/RLxZQ1V+++C1LpHXxtq2bBCKKoHSaEfkYuh4kBWHEi0qvRLCD7g5HVuNjwM25fSk/mEAf/hjM16XQZDvdnzEaF3TKCu7L8BiuaXk3KuER8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Create-GitHub-repository&quot;
+        title=&quot;&quot;
+        src=&quot;/static/cc926dd9c8c224586b489ef9920b641c/f058b/create_new_repo.png&quot;
+        srcset=&quot;/static/cc926dd9c8c224586b489ef9920b641c/c26ae/create_new_repo.png 158w,
+/static/cc926dd9c8c224586b489ef9920b641c/6bdcf/create_new_repo.png 315w,
+/static/cc926dd9c8c224586b489ef9920b641c/f058b/create_new_repo.png 630w,
+/static/cc926dd9c8c224586b489ef9920b641c/d52e5/create_new_repo.png 848w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Copy the link for the repo to you clipboard.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8e6e7ba1ad9511647ef752391b4633f6/a2498/copy_to_clipboard.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 38.60759493670886%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAABmUlEQVR42nWPW4+aYBCGuW7XE3L6gI+zgKIioK7VNTVt1LLau/b//5Snke4mbZpePHlm3plkMooR1+hRhRmtsNJnzMkGkR8Q0yNGWGLJmKFm01ctBqrV+X/0RibKh77G09Dg40Dnaah3fmekO/jxDNubEOclUbbEdCKEN8ENc4RMuoNhusBPCnQRoPhRhmZJhIwZmxLTCZFh1tWWjLC9pMu8OMewA4SMun03SNEsD8MJkEHKYCw6FCEChprDQJf0xw4DzWGoS3qqzUBz37LffqAaXjdXTY/Rw4ZHz/DpdXOBkjSvZOsbUXkhLi+k65ZJ3ZKvbx1Z80q+uTPdfkcWXxj5O7Rwzzj4hBrscYMtVVhjRXtUWaHU+5btsaU5tGTNhbS6UDQnyt2VrDqRLl+Y1Z+Zr08k8x1eusbPNnhpQ5BvsLMtx3hKVTyj+jXK4uUHs8NPwvqOPW+xiytyfsZd3hDFBVFc8RdnouXX7oO4PJPW30hWZ5LVBa9sMeYtTnlHDxoUza9RvRrVXf6LfLj8Kxu98Wc9fu/tnF+KN+DS0iW1hQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Copy-link-to-clipboard&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8e6e7ba1ad9511647ef752391b4633f6/f058b/copy_to_clipboard.png&quot;
+        srcset=&quot;/static/8e6e7ba1ad9511647ef752391b4633f6/c26ae/copy_to_clipboard.png 158w,
+/static/8e6e7ba1ad9511647ef752391b4633f6/6bdcf/copy_to_clipboard.png 315w,
+/static/8e6e7ba1ad9511647ef752391b4633f6/f058b/copy_to_clipboard.png 630w,
+/static/8e6e7ba1ad9511647ef752391b4633f6/40601/copy_to_clipboard.png 945w,
+/static/8e6e7ba1ad9511647ef752391b4633f6/78612/copy_to_clipboard.png 1260w,
+/static/8e6e7ba1ad9511647ef752391b4633f6/a2498/copy_to_clipboard.png 1764w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Run the following commands to push the code on your computer to github. This will add the raw code to &lt;code class=&quot;language-text&quot;&gt;main&lt;/code&gt; branch in your chosen repository. In future you can use this branch to access past versions of your blog and restore an old version if needed.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; remote remove origin
+
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; remote &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; origin &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Link copied to clipboard&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch &lt;span class=&quot;token parameter variable&quot;&gt;-M&lt;/span&gt; main
+
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push &lt;span class=&quot;token parameter variable&quot;&gt;-u&lt;/span&gt; origin main&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;ℹ️
+&lt;sup&gt; &lt;strong&gt;Info for readors without cursory knowledge of Git or GitHub 👉&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt;If you are not already logged into GitHub through your command line, you may be prompted to login at this step.
+When logging in to GitHub through terminal, enter your regular GitHub username during the prompt. However for password, your regular password that you use for logging into website won&apos;t work. You&apos;ll have to create a &lt;a href=&quot;https://github.com/settings/tokens&quot;&gt;Personal access token&lt;/a&gt; and use that token as password.
+If your&apos;e trying to use code editors like VScode, then login will be handled through redirection to browser. &lt;/sup&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;On GitHub, head over to &lt;code class=&quot;language-text&quot;&gt;settings&lt;/code&gt; section, then open the &lt;code class=&quot;language-text&quot;&gt;pages&lt;/code&gt; sub section.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a18bc622aa54f4d999b156da4c60d301/ec09f/navigation_to_pages.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.68354430379746%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAACWElEQVR42n1TSXLcMAzUKYfZtHIRKVLULo3HM3YqdlX8/391CpA0cS45dAGkQKAbgKJcB4jwClG/QrYPyPYdaviAGj4h6hsK7RHnJS6Z3vDN3+7p+x4TnTONc1Y+cckNTplhS+dTIqFdh9IP8N2CMLxAVy3f2XpEYQJMGOG6BdK2iOJco9AOuXIQZY1MVjC+Zyu0hzSBH1MSaRso27AvTEBhWxjboPI9mv66MpSWKg38kBIWpYcwNT+kM0lJCvOUtZ9Jrhcav5WEVBW0drikCpF2JGVCripk0jIzssP1Dd1856rnVLEl+cdLgVOqkKYKTSaQpApHuk8kx0XUdNfOkKbhB6ftA7H27YzSdZzkxyFhyVSEWFLcIVFr/A5KmIoKVRgZJHFnY1yHZrihm+7c3+NF8MSpv3sLUmGRMAxbGnBUlDUzLH3PQZTwnEqYMMO1C2wYmGXpeu4rgWKpCCUkQpxYet6KVXIzcdU12Zqw7q7olwdLbKdXdPNjtezfmSkNUlUtFyGfCEXkkKxk6wsPIZFIpUPhZuR2gPQzpF8g3AThZgi3QIUrdHiBtCvbXHuWHVHfaFlz2z4nRZWINUmuwsTnw6XAMRY4xpJxIH8b4ikRz4FGtLS3+y989QNcJnDchlKFAY7QjCxpX3xqEVkC72Omvv2WGlGmPSobMKTZumexQJwbDLdPjI8v9C8f6Oc7+uWNd3NY1v2cbj+5b/ua7eApy6rFRfnnr3dONdKyR2ZHpLrddmzHtnub/5edYkSiDBiv76hpucvAzeVq1Je4wCkW/zD4H0jyH71ggosVogiQAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;navigate-to-pages&quot;
+        title=&quot;&quot;
+        src=&quot;/static/a18bc622aa54f4d999b156da4c60d301/f058b/navigation_to_pages.png&quot;
+        srcset=&quot;/static/a18bc622aa54f4d999b156da4c60d301/c26ae/navigation_to_pages.png 158w,
+/static/a18bc622aa54f4d999b156da4c60d301/6bdcf/navigation_to_pages.png 315w,
+/static/a18bc622aa54f4d999b156da4c60d301/f058b/navigation_to_pages.png 630w,
+/static/a18bc622aa54f4d999b156da4c60d301/40601/navigation_to_pages.png 945w,
+/static/a18bc622aa54f4d999b156da4c60d301/78612/navigation_to_pages.png 1260w,
+/static/a18bc622aa54f4d999b156da4c60d301/ec09f/navigation_to_pages.png 1916w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;You&apos;ll notice a message that &quot;&lt;strong&gt;Your site is live at&lt;/strong&gt; &lt;code class=&quot;language-text&quot;&gt;https://wylie-cayote.github.io&lt;/code&gt;&quot;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;However if you click on that link, you&apos;ll find the &lt;code class=&quot;language-text&quot;&gt;README.md&lt;/code&gt; file of the repository and not the blog you built on your computer in step 1. GitHub pages simply show&apos;s the &lt;code class=&quot;language-text&quot;&gt;README.md&lt;/code&gt; file in the &lt;code class=&quot;language-text&quot;&gt;main&lt;/code&gt; branch, which is the raw code we just pushed previously.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Basically we&apos;ll have to build the Gatsby site(with a script ofcourse, to create js bundles, assets etc) and place those build files into a different branch (other than &lt;code class=&quot;language-text&quot;&gt;main&lt;/code&gt;). Then point the GitHub pages to serve those files in the new branch.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;This may all sound complicated, but don&apos;t quit yet! I&apos;ll show you how can accomplish this in very simple steps.&lt;/strong&gt;&lt;/p&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;The best way to build and push a Gatsby app to GitHub Pages is by using a package called &lt;a href=&quot;https://www.npmjs.com/package/gh-pages&quot;&gt;gh-pages&lt;/a&gt;. Install this package by running the following command&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; gh-pages --save-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;In &lt;code class=&quot;language-text&quot;&gt;./package.json&lt;/code&gt;, you&apos;ll find an object called &lt;code class=&quot;language-text&quot;&gt;scripts&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Add a new script called &lt;code class=&quot;language-text&quot;&gt;deploy&lt;/code&gt; to this object. This script basically creates a version of your site with production-ready optimizations like packaging up your site’s config, data, and code, and creating all the static HTML pages.&lt;/p&gt;
+&lt;p&gt;All these assests are created in &lt;code class=&quot;language-text&quot;&gt;public&lt;/code&gt; folder. This folder is then pushed to a different branch(other than main) called &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; on the same repository. When end users view your blog, it&apos;s the files in this folder that is loaded on their browser.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build --prefix-paths &amp;amp;&amp;amp; gh-pages -d public&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Now you are all set to run the deploy script. Go ahead and run the following command.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; run deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;With this we have published the build files on &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; branch&lt;/p&gt;
+&lt;ol start=&quot;7&quot;&gt;
+&lt;li&gt;As a final step, head over to &lt;code class=&quot;language-text&quot;&gt;Settings &gt; Pages&lt;/code&gt; &lt;sub&gt;(Refer to point 3.)&lt;/sub&gt; and change the source branch for GitHub pages from &lt;code class=&quot;language-text&quot;&gt;main&lt;/code&gt; to &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt;. Folder can stay the same ie. &lt;code class=&quot;language-text&quot;&gt;/root&lt;/code&gt;. Click the save button.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0413ec64275b1c21796550314e19fba9/764d0/change_branch.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 82.27848101265823%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAACdElEQVR42nVU2Y7bMAz0827iS7Z1y5bPxEk2PbAFChT9/7+agvQ6u9uiD4RkyiRnRqSSQ1bjkFV4zirs+6dUvPvyBqadYMKEOF8R5xsaE6HDBNPOqE0H358QhpX9SVFblI1DpVuUjedVuh55ZVCpgKJx0H5ArTsOIJ9yPa/SRjS643MTRqSlQlJTAhs5KQVTAfrWYYRtJzSm285qy0UyoVFKz3sGU1tY08K5iGMhkQjpQUZ0yfGc1cgqg26+oV9eMJxekJaaE21mGMlu5EuFxrFQW0KCa7uZqZKDNMtrBzt+hTAbQu0ilIu8Gt8zcopz3QLlB2ZEElBsQgFhOPMhI6WElUY7nNEOK1xcUXU3VP4MEVaUdsGx1DjmDf+r3MCXRQVIGk5o25mrZOUGm0yoDk04oxuuEOGCxi+o3Yi8aZniTnmLn9DYyJomBNnHE4v8TtnyrZm3iyGqW0vVjGwvuv9Puh/e/AkFhf70cNBK1Kf1C/cfSSFtjyOh/8Dgf8YIu+my6VdsuhD09f6Kfrmhn2/cQjuKz/Yv4oSSUbCL80MXoTyW6ze4uDBtamTaUzdQcjY/QNgJhRo+J/TDijAsKKWFUDQxnoW+v/7C7ftPpn65/4CL23iR1odcfqJPSBktU3Y93xBRpjHiyykVz+xwuqMyEaWOEKrl8aPWENJBNJZvnE1GXqm5E4JPfUTU9hGkSjT8yo+QKmBWFkp6lDJA+gkmrtDdCmFnTlboEbnq3xNSY9MIPaXb60L9aOMZ03TBb+fQu4jaEpN+68O6RSY7ZnLgV6p6jG5Czw+NDX2kH3QhzdrxwpTFWzKytJQ45tVDs7/b5g8P8pzRljrsdQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Change-source-branch&quot;
+        title=&quot;&quot;
+        src=&quot;/static/0413ec64275b1c21796550314e19fba9/f058b/change_branch.png&quot;
+        srcset=&quot;/static/0413ec64275b1c21796550314e19fba9/c26ae/change_branch.png 158w,
+/static/0413ec64275b1c21796550314e19fba9/6bdcf/change_branch.png 315w,
+/static/0413ec64275b1c21796550314e19fba9/f058b/change_branch.png 630w,
+/static/0413ec64275b1c21796550314e19fba9/40601/change_branch.png 945w,
+/static/0413ec64275b1c21796550314e19fba9/78612/change_branch.png 1260w,
+/static/0413ec64275b1c21796550314e19fba9/764d0/change_branch.png 1898w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;That&apos;s it! The blog is now ready at &lt;code class=&quot;language-text&quot;&gt;https://wylie-cayote.github.io&lt;/code&gt;(in your case that would be &lt;code class=&quot;language-text&quot;&gt;https://{your account name}.github.io&lt;/code&gt;)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;After you change the branch from &lt;code class=&quot;language-text&quot;&gt;main&lt;/code&gt; to &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; give it a couple of minutes for the Pages to reflect your Gatsby Blog instead of &lt;code class=&quot;language-text&quot;&gt;README.md&lt;/code&gt;. If you still dont see the changes after 5 minutes do the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Try to hard refresh the page on browser -&gt; cmd + shift + R&lt;/li&gt;
+&lt;li&gt;Try to redeploy the branch with &lt;code class=&quot;language-text&quot;&gt;npm run deploy&lt;/code&gt; command&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;🎉 Congratulations on setting up your blog! Now get out there and share your ideas with the world!&lt;/h3&gt;
+&lt;p&gt;Now only catch with this blog is that it&apos;s hosted on &quot;github.io&quot; domain, which is fine for most beginner blogs and drumming up a small audience base for your self.&lt;/p&gt;
+&lt;p&gt;However if you decide to go &lt;strong&gt;Pro&lt;/strong&gt;, you may want to host your blog on your own domain name that you purchased from a registrars like &lt;a href=&quot;https://godaddy.com&quot;&gt;GoDaddy&lt;/a&gt;,&lt;a href=&quot;https://www.namecheap.com/&quot;&gt;Namecheap&lt;/a&gt; etc.&lt;/p&gt;
+&lt;p&gt;I&apos;ve purchased my domain aravindkarnam.com from GoDaddy, and transferred it between different providers before finally settling with Cloudflare. I found cloudflare to be the most cost-effective and performant website hosting service.&lt;/p&gt;
+&lt;h5&gt;Step-3: Configure a custom domain for GitHub pages&lt;/h5&gt;
+&lt;p&gt;Create an account for yourself on Cloudflare and follow the steps below to register a domain, and set it up for your blog hosted on GitHub pages.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Head over to &lt;code class=&quot;language-text&quot;&gt;Domain Registration &gt; Register Domains&lt;/code&gt;. Look up for a domain name you like, ad you&apos;ll get a listing of all available domains with different TLDs and prices. Pick one for purchasing. Keep in mind, that this is the only cost you&apos;ll have to bear for a full-featured blog for an entire year.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;To write this blog post, I went ahead and bought the cheapest one at $4.76 &lt;code class=&quot;language-text&quot;&gt;https://wylie-cayote.uk&lt;/code&gt;.&lt;/em&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8c6306fbae3d263fc50e9357db002c69/37114/domain_registration.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.0253164556962%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAAB70lEQVR42mVT2W7bMBDU//9MH/oRRd+CIg0a1LHkJI4tWQfF+55iV1aAoAQGXC7J4ezBpr+cMRwe4L1DShk5Z55LyailMMgmxBCglESKEd57GGP4nlaKZ2sNGnLOQmKeJ1hrQSPEiLY74Xy+4HhsoZRmf6kVFUCtZH9FLkDKFc28WkhlEGJidaSINs+Tx9toceo1XgeD9yngOES8jw69iBAOn1gs4DKQSkUjlINYDYSySIlIC6MfF/S3BcpGGJ9hXIJ220ywITNoL+WCh1bjV6fRWB9xnTTGxcCnLSQivAwLLoPAIj0WRQgQKvDMIL/0mGQAcXz70eP7zwHNJD263uDt5nAVBYlykSJOpw6nrkXXHvH0+xEvLwd0tL7j+fkPDoe/fK5tWwwfHcx6Q7Mqz/kDJ7sySimQSkEIgRgjp2JLR+Y95xyU1rzefBmrDlAmoBmFhTZ+q1ypn6RaayYMIXx5jAa1DGGvPFA5v9YnqrJDyvk/hUS4risr3H0EsomMVJKd2VegqVA+olmkg/MR98e3V0vhppVS8uWdbCcMpDAElPtZIqTKEw8rnKXH6jbp5a5mJySVe3h7yJQGbzSqlndf5fZxFPJtMViEgF1Hbhf6dlQAItuKEnhNoXOBYoSlbzdckfoPxFK4K6TxMNbjH3pnogrQLoQgAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;domain-registration&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8c6306fbae3d263fc50e9357db002c69/f058b/domain_registration.png&quot;
+        srcset=&quot;/static/8c6306fbae3d263fc50e9357db002c69/c26ae/domain_registration.png 158w,
+/static/8c6306fbae3d263fc50e9357db002c69/6bdcf/domain_registration.png 315w,
+/static/8c6306fbae3d263fc50e9357db002c69/f058b/domain_registration.png 630w,
+/static/8c6306fbae3d263fc50e9357db002c69/40601/domain_registration.png 945w,
+/static/8c6306fbae3d263fc50e9357db002c69/78612/domain_registration.png 1260w,
+/static/8c6306fbae3d263fc50e9357db002c69/37114/domain_registration.png 2300w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;You&apos;ll have to enter your contact details. It&apos;s mandatory and legally required for all registrars to collect this information. Don&apos;t worry though! Cloudflare redacts your contact information on &lt;a href=&quot;https://en.wikipedia.org/wiki/WHOIS&quot;&gt;WHOIS&lt;/a&gt; record of this domain name.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Complete payment through credit card or paypal.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ef5ea3709cc2c520b7be934096ddcc57/105d8/complete-registration.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 105.69620253164558%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAABYlAAAWJQFJUiTwAAACgElEQVR42pWVDVOjMBCG+f//y9Fx6qk9T+g5tdpiaaDyDQkQ8t68KVS8qncy88xmN8nmY3eDc319DXJxcYGzszNcXl7C9TxcXf2A53mYza6sfTab2b7z83MIIdB1HaSUUEpZ2TQN6rqGEwRbhGEIf7PBi+8jFMLib3ykaWJtq9XK2oLtFtvtFkpKfPRpreFUUqI1QGcMOgM0vbFtA1i9xwHN9qC3xqDpD2OP0gBV28Hx0xrzrYIXKtz4Ej8DhXXeIe+BRANpZ07RQPYBcaPh7OMEaVEiyQvEeYE0L5BXNYr6+6RFAYd35HkuHh4e8HuxwOPjI7IsRZaekmfZlyRxDGe/3yNNUyRJgiiKkGWZvVxGcYQRLIoCKSfm+afQh/P6+mqdUCFlWR4dtW17hA45jnLkQ4dBEGCz2djUWK/XeH5+xnK5tNDm+z6enp6snfooCcewj864WMwjs1FVlV2RknCXhLZRfgb7x3l07NDIO5sebzyuMQbf+Wxi39zeYj6f49f9LywWC7iui3vXxd3dHbIsh2oaSKkOqIkc2iy9Ee7WEcELolBYQiJ2ELvgqEeReNPFbiCwNtsOBRgHliRr3FnualQNUMoelepREqlRKn1oq4O9UvqtX2nktbZzZNPbo/Z9b6/JWe0qJFWPuNQoGyCXQCGBjFINujpQTvRysFUs4uGuefdOEkcoixx1VaDXHbRuT+neZD/VdfcuKNahECFEGNq3jB8ja4ZFvwRA07ToJ5lgo8zsZoRYXtNy+x94Zyc7ZHYzF9/v0NjV/gUDcZKHfK1ZLdN65mPBXdMxJ30GTzVNfrtDvjB8cfhIsM0FKFlKYwWNx/tb8l8yHn8c+wf9Uk9jFfhBtgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;complete-registration&quot;
+        title=&quot;&quot;
+        src=&quot;/static/ef5ea3709cc2c520b7be934096ddcc57/f058b/complete-registration.png&quot;
+        srcset=&quot;/static/ef5ea3709cc2c520b7be934096ddcc57/c26ae/complete-registration.png 158w,
+/static/ef5ea3709cc2c520b7be934096ddcc57/6bdcf/complete-registration.png 315w,
+/static/ef5ea3709cc2c520b7be934096ddcc57/f058b/complete-registration.png 630w,
+/static/ef5ea3709cc2c520b7be934096ddcc57/40601/complete-registration.png 945w,
+/static/ef5ea3709cc2c520b7be934096ddcc57/105d8/complete-registration.png 1170w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h6&gt;If everything went well, you should see a success message like below&lt;/h6&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/15afbd1a685543c592b68efaae160af3/b7877/success.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 96.20253164556962%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAABYlAAAWJQFJUiTwAAADEklEQVR42o2U247bRByH/RhcU/Ec3PAcXHBVeAckrrjiBkS5BgkeAKosF0hbbWm3zabtbrNbkk3XiR0ncQ52fBrPeHz6UJw9hS7QsT7P2PObT/6PrDF6vR6tVouDgwP29vZ49Gifp0+f4DgOZVmilCLLsvciSRIMy7Lo9/qYpkn3dZez0zMG5wOklGxaXde8bxNCYMRptF1I1dyvrqou0FW2Q/4f6DIjTAKMrnvMof2MY/eYzqTDk9EhbeeI7rLLRNo40vpXZvmYmbYvGWMGfQx7PWCSnLPKRqwyEzcdsJQmgbap8O6kxkPXHn48RHgmIrDxxZhxZGG0ex4/H/j8uL/k+5bLg705D/bcZvztw+k7fPdwyje/zvjlDxtif7tdKoKlRRqFGD+0Rnzy1Rs+/vKUD+8fNdy73+He53fz0RcdPviszadfd0D7FBePKTo/US9NZLDGWK0TShFBNAcVQhb9PzqGcA4ypnzzG5U/BCWR6xXG0gupfBe8EaQxqHSXbIN4970UsHKotaZWEiKv+dWMhS9QSpMKQSqSa6QQKCkIo4goSlCpQN6aFyJBqxQZhqSxaPZyK/QSgrzGzSrmWdX0C10zkwVHVsTjgaD1asErR+KqisVVTpV4eUWSlQhV3gjdVUyoK+aqYHFNydHFmv3jCf2Z4vBswvPzkOdmfJ2ZywJflySqILkUphvhdBkRZDfCVVYwCjNsL6fnhLy8mOEEFf1JyIu3Mwa+xtMFrsxZ5yWx3NII0xRjstgVbsLDUPPn2YyuHXPuZrT7c14OY3pTyZkr8fPyWhjJkijdCsVG6Mx3hcusYJzktN8uObETzIXihbnixIp4baeMY91UsSl5IwzTouFaOHYj1reEm+BKF/y1yNg/DTg4sTg8T/i9PeLYifF02WSvhEFaEIhbQssN8bPL0C02UjvKaI8Ez8yYUaibUucyZ67ypuTN81oUBElxc3wNpyFC16iyRhY3pEVNVtXkVY2uacY783lNXoOfFPjxlXDzhbM1F9MYaxYz+gfD6S6jOzLmNCZKFFpvT+y/AU1yiHP3pToHAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;success&quot;
+        title=&quot;&quot;
+        src=&quot;/static/15afbd1a685543c592b68efaae160af3/f058b/success.png&quot;
+        srcset=&quot;/static/15afbd1a685543c592b68efaae160af3/c26ae/success.png 158w,
+/static/15afbd1a685543c592b68efaae160af3/6bdcf/success.png 315w,
+/static/15afbd1a685543c592b68efaae160af3/f058b/success.png 630w,
+/static/15afbd1a685543c592b68efaae160af3/b7877/success.png 891w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;You&apos;ll find all websites that you have purchased under &lt;code class=&quot;language-text&quot;&gt;websites&lt;/code&gt;. Click on the corresponding site, to update it DNS records to point to Gatsby blog on Github pages.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/752ed8e3e726436f27b121b61b3d6af3/e1250/websites.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.632911392405056%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABh0lEQVR42p1SXYsVMQyd//+84LL+DmGvyD6o77KgCBcfZGG9151pO52Pph9pjyTj3FXElw0c0qbtSXLS7tRb/Pj8EebrB1QApWTknFFKUTAznHMYhgFEhBgjrLWYpgnLsqDve3jvdT2OIzqiAOcsjDGwxmBdV0CJixLXWhWyb60pZL3HJaFA4nK/m9aEJ7fgp/Ew4wzjV3CDZj4ej1qJmDz402pr4NpQG549M7rvT4RvpwDxNjRYaljSVoW0KoRStbQ0z7PuQwj/JBBTQuMJ0xLhphV+DijMml20EhlSStqKeIkRRaBmvP/icH044929w83bE17dnnB2EZ2QjTOBYr60VmvTbDIEgVT0TJzROOHuvsfVmwccPg14fXjE9e0jzpbQDZ7gJkIufCl9I61wo1MtpU0hVO2YMXqP2RvUEvTe/kZk6uY1asspl8sBc1Wffn+fLbZNU6dfMigmFJbpM1LekIVwGAMCSbvtrwpfYjoU51c4vyCEePnUotP+sWW/Y4/9Ly6y/ALOtQc3yXXbQwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;websites&quot;
+        title=&quot;&quot;
+        src=&quot;/static/752ed8e3e726436f27b121b61b3d6af3/f058b/websites.png&quot;
+        srcset=&quot;/static/752ed8e3e726436f27b121b61b3d6af3/c26ae/websites.png 158w,
+/static/752ed8e3e726436f27b121b61b3d6af3/6bdcf/websites.png 315w,
+/static/752ed8e3e726436f27b121b61b3d6af3/f058b/websites.png 630w,
+/static/752ed8e3e726436f27b121b61b3d6af3/40601/websites.png 945w,
+/static/752ed8e3e726436f27b121b61b3d6af3/78612/websites.png 1260w,
+/static/752ed8e3e726436f27b121b61b3d6af3/e1250/websites.png 1786w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;Click on the name of the site, you wish to configure the GitHub pages for (in this case it&apos;s wylie-cayote.uk). Open the &quot;DNS&quot; section from left panel.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8f1434b03f8d904553c7b7be7712cf00/914ae/open_site.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.0506329113924%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB8ElEQVR42oWTSXLbMBBFef/b5ADZZpOV14wVVcoSRQrmgHn+qW5SEu2Sk67qaoAD8P9Do/n954TDj2/oXr7DpQptDIy10FpDKcWV0hgDuz3fz4dhQNd1mOcZ4ziiWaSEURJGK4QQQFFrvect9uN95JyRUuKxcw7NvGgMYsT5fMH1KlBKRUqZF3/91eJweEXbtvDe80+llKcbUtA3TXs2OA4BbyJgssBVVswOyKXiLAymWWKaJrb5LGgRsk+VbDeLdJiVg/Zps7YuFmPEOEnmmHNalT1ZkJ6TbVJrybKYNLTxiC8/kY4tUveGkjPv6KxFxWotFcCFCh8f6aimdRwSoK1H0wsFZTyykqjeocaAnAuDllJiWZa7AuJb6pMsldU759GMs4HUHiHmnY3KCqktGPxe4aaIqttVUii1QzMuFsYGhJgerVBWhUIIZkgnXreN/qWQGc7SwrjArfL59E6nE0OnoNc3hntljzkYXbMoy1LjbkGySdyoXYjjzfp/GfqN4aIc4gfLK8O+79cGJgSfGcYvFA7vGqtKy+xuCokh3U2lNNsuXykslQXQ2W1Xz0DbAKUdfEgfGPb95T5nhhF8mqRmXynJASuk2yCVQQiRVdGJUj9ZF9AJi9OgcewUJmnXZvcBPjxSW4eL0OjfDQYh8RdQ/pNXJzYtkQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;open-site&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8f1434b03f8d904553c7b7be7712cf00/f058b/open_site.png&quot;
+        srcset=&quot;/static/8f1434b03f8d904553c7b7be7712cf00/c26ae/open_site.png 158w,
+/static/8f1434b03f8d904553c7b7be7712cf00/6bdcf/open_site.png 315w,
+/static/8f1434b03f8d904553c7b7be7712cf00/f058b/open_site.png 630w,
+/static/8f1434b03f8d904553c7b7be7712cf00/914ae/open_site.png 860w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;Update the DNS records, so Cloudflare knows to point to Github pages. You can create a new DNS record by clicking on the &quot;Add Record&quot; button.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cfd08281e8c541ed47fded37e5ae2511/29229/add_records.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 65.18987341772153%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAACEklEQVR42o1TR47cQAzU/x/jg7/ggy8+7m1mwyRldY7qUEZzZsc2sAcLINgi2USRVd2dTycMLz9glIDzHt57hBDIW2uf5qyDtQ7rukIpBa01tm2DEIJiUkosy4Ju3RiE1FSEWlFKoYRzDv/71VrJNyDdsklIZbDve+uHnDOu1wsYY1SYUkIuBSlVpL1Q7Ct7NmRcI4SdAg1da9jG4ZxDSEmjKKXBmYVglvJfIUy5wliHblgV+i3AREC6jJgKQvCYpgnzNGEcBwxDj2ka0Pe3x3kio31KSUBaQ20cOiENhI6IqSJmoNSKGCP6YcStH8mfz1ecLzdcLje8v7/jdDrhcDjgcHzDx/lCxNDI3qObN4kY0xP659ib8Fi4w9o8s+gXRTHGOO13nkZcRobrrBFDQC3l3nBlCi7s/yy4SWZdFxqpSeM+4gghOErJZI/tkdE9gO51K5OwLj6DzTfGGxFGaxhrYYwBEwrnnuM6SizMIJc2TSVPX9rvCDeu4B8sk2xKecqg+ft/oR1rV2D83RoJT5YFQ517eNIhU1AmIKX8QFjgY8YiArT1JKGGMJdMufrXyN9+rvj+i0G+vkGbAOcDOi40nN8R9z/EhBCh7b1g3yMR1fbjnMeeEmJsK5F4eV1wvEr4lGFcgNEG3by0p2foRTS5tGLOGZHxSUpDOc8zPcl2bjI5Ho84f7xiXUZwtlG+1f4GHwnr3pQdeN4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;add-records&quot;
+        title=&quot;&quot;
+        src=&quot;/static/cfd08281e8c541ed47fded37e5ae2511/f058b/add_records.png&quot;
+        srcset=&quot;/static/cfd08281e8c541ed47fded37e5ae2511/c26ae/add_records.png 158w,
+/static/cfd08281e8c541ed47fded37e5ae2511/6bdcf/add_records.png 315w,
+/static/cfd08281e8c541ed47fded37e5ae2511/f058b/add_records.png 630w,
+/static/cfd08281e8c541ed47fded37e5ae2511/40601/add_records.png 945w,
+/static/cfd08281e8c541ed47fded37e5ae2511/29229/add_records.png 1167w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;First let&apos;s add a CNAME record. A CNAME record - Forwards one domain or subdomain to another domain. Let&apos;s add &lt;a href=&quot;http://www&quot;&gt;www&lt;/a&gt;. subdomain and point it to &lt;code class=&quot;language-text&quot;&gt;wylie-cayote.github.io&lt;/code&gt;(In your case it would be {username}.github.io).
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.16455696202532%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABmElEQVR42oVSW27bMBDUpXKw3qQX6R36WbRAgf7EcmzHlpxIlKXoQVoPixSnmJXlummLEhjMkrvaHQ4VrFYrbLdbrNdrHA4HHI9HJEmC/f6A3W6Hp80GqzCUOI5iyb1ca6IoEk7TFG3boqoqBKfTCXVdwzkHay2maZLYOQtnrfDlchGW3DRh8l7ipZbMZYxBwK7sXpaloK4bAB6vWYNwrxA+J4hVjVw7lEWBKo1g3lJchl4Gnc9nEcLVdR0CrbVILYpClHZ9Dz85PCca6+gNmygX7LMOKo4xqCdYrWD0XMsmbHxTyICS+74XpeM4StJ7D+9xBz9D9F+xnF0t4PeBUkqM5WOkaYKqbJElZ7zGGk3dwzoLOxKjDLN2xhzbG98U0gNelUzw0BjG7ZVn0BrmftWY386pUjykd3mey4YFlM2YzP38wu6/GK1F3TQIhmH4Y+qy53R6yyv9C8svBu9gjJ4f5X4tJv/t7D3kP6SP1qHQFkWpEVBB0zRyRSoiL0qXmBYwd8/MqSzDj+/f8PlriIcPX/Dx0yN+AroqThUpn52bAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;CNAME&quot;
+        title=&quot;&quot;
+        src=&quot;/static/29312b4cb4f1c48f4105915c2c186f1a/f058b/CNAME.png&quot;
+        srcset=&quot;/static/29312b4cb4f1c48f4105915c2c186f1a/c26ae/CNAME.png 158w,
+/static/29312b4cb4f1c48f4105915c2c186f1a/6bdcf/CNAME.png 315w,
+/static/29312b4cb4f1c48f4105915c2c186f1a/f058b/CNAME.png 630w,
+/static/29312b4cb4f1c48f4105915c2c186f1a/167b5/CNAME.png 776w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;Alternatively you can also add A records (which points to IP address instead of another domain). As per &lt;a href=&quot;https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site&quot;&gt;GitHub&apos;s documentation&lt;/a&gt; for setting up custom domains, to create A records, you have point your apex domain to the IP addresses for GitHub Pages.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8ff3369cc5264f065da89f6f59345f93/4971b/A.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.89873417721519%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAABlUlEQVR42n2STY7UMBBGczauxVE4B5cAIY1AvYEZ2KBOOkn7L3Ycx44fKmvSswDh6MllV5Xj+srdMAyM40jf9yilsNZyu924Xq8MQ888Tzhn0UqhtcJozTzPaK2ZpqnlpJSIMWKMoZPE+/3egs4AcUjCdZgat0k17BJQxqKtI24b27axLAu1VmSEEOgk8bzZOee848LO0/eBy/OVy0vPryHwu1csL5+J408WPbH4QPCedV3fDvTecxzH42+yWUoml4IN+xtrxq87lEQtmZIzpZSWK8hwztFJuXJL/aqNtY7FZuYx4nSCKsEVakW+o1aOo7YyjwdHW7cDpcym3zg2DcU22mH0gla23VqQ4NOWMqVRPnj8q09klNI7YyzjrDB2Yd12QkyEuLHGhF83wprYUvmLmPJjFlI+cEugk4OU8Y27dtyNrBeU9czaoa1n2+v/yZWUQWlLJyXIOHV5gwfi+xelHI2cCyEd7Tl1otm+J6Tb8ji3GAnBt67HuLauiy36CGKfe9oYLt+e+PT1mXfvv/Dh4w/+APN7ATZR7uF2AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;A&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8ff3369cc5264f065da89f6f59345f93/f058b/A.png&quot;
+        srcset=&quot;/static/8ff3369cc5264f065da89f6f59345f93/c26ae/A.png 158w,
+/static/8ff3369cc5264f065da89f6f59345f93/6bdcf/A.png 315w,
+/static/8ff3369cc5264f065da89f6f59345f93/f058b/A.png 630w,
+/static/8ff3369cc5264f065da89f6f59345f93/4971b/A.png 784w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+Add all four IP addresses, in your A records.&lt;/p&gt;
+&lt;p&gt;This is how the DNS records of the site I configured looks like...
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f86200bdc02a231c748e482a50147e26/4e6ec/Records.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.77215189873418%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAABdklEQVR42j2STXKcMBCFOXgukIN4m0WWuUA2OYJd8YBhhBDiRxJCCOZLtexJV6ma16K733ulqlOatp+xc0CpnrZt6boOYwzee9Z1LTmEgPMe5xyr8/z6o/j5u6XVC8Y6erNi7UQ1jDNmzawhs++Jx+PBdV3lyLeE5FL/wjmffP/xwbeXG8qm0ruEE+cClTDZ40Y+jsIkpUTOmeMLy3liuQvbhnOe84jARUo7R0rEGBi0prrdbmg9lMamaRiGgWVZ2LatSK/rumC537bIqDvq9zeapsX7gBlHrLXc1cDb33eqaZr+yxJ/xnFknudSe2L55zxzqREGou2w84IYEONO2iN+BzN5KmEkfp3nWRoFS5YFku/3O1rrIlcGnK7HDTXajKWvMA+eJWS0WT49fDKUAdIsrCREat/3ZYn4KHE5hdc3hvFTmXgat8C6XejRUYlPMmTf9/JURKb4JwMEC0N5Sr1SxJRJtmbuXulUX1jL0nWZMXOkU5Z/9iFji+etueUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Records&quot;
+        title=&quot;&quot;
+        src=&quot;/static/f86200bdc02a231c748e482a50147e26/f058b/Records.png&quot;
+        srcset=&quot;/static/f86200bdc02a231c748e482a50147e26/c26ae/Records.png 158w,
+/static/f86200bdc02a231c748e482a50147e26/6bdcf/Records.png 315w,
+/static/f86200bdc02a231c748e482a50147e26/f058b/Records.png 630w,
+/static/f86200bdc02a231c748e482a50147e26/4e6ec/Records.png 827w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&quot;7&quot;&gt;
+&lt;li&gt;Finally head over to the &lt;code class=&quot;language-text&quot;&gt;settings &gt; pages&lt;/code&gt; section of your GitHub repository. Here update the Custom domain section and click on Save.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/42b3e9028299ccf0ef5cc01f77f255bd/63ec5/save_domain.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 19.62025316455696%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAv0lEQVR42o2QwY6CMBRF2c+gtNIyQAuWghWBxKijy0n8/386BkYnLmdxct99i5d7X1TWHdtuwO1GjAt8rBWfif43caKIZxXZQuR3I+PxymE6oYsakeYkT4Q2CFUitUFqu+jsX/tEGdbKskrLt4PDlel2Z7j84IZv6v2FMN0I4xnne7ZNoGr2WBcoXSC3LXOromrRxrMxPSL3fykjXfXU4YTtjsiiZZU1FO5A5Xs2MkPLr+UNL+aa73OcpL+1nwkfRlRn6KL7cG4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Save_domain&quot;
+        title=&quot;&quot;
+        src=&quot;/static/42b3e9028299ccf0ef5cc01f77f255bd/f058b/save_domain.png&quot;
+        srcset=&quot;/static/42b3e9028299ccf0ef5cc01f77f255bd/c26ae/save_domain.png 158w,
+/static/42b3e9028299ccf0ef5cc01f77f255bd/6bdcf/save_domain.png 315w,
+/static/42b3e9028299ccf0ef5cc01f77f255bd/f058b/save_domain.png 630w,
+/static/42b3e9028299ccf0ef5cc01f77f255bd/63ec5/save_domain.png 812w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+Once you click on save a DNS check will be initiated by GitHub.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/06c1d065dc9664db3b065fb18d314ce7/e619b/DNS_check_progress.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 20.88607594936709%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAy0lEQVR42k2P23KCQBBEeU1FXAh7EZZFbis30URTmv//sZMCK8aHU9Nd1dUzE2hb0fQnSj/hhzMiSXkXik2kn/NPv/p/FOFCrAljQ5AVnvnyw/x1x9Udicn50DmRzIiVRchs9YkpVhYd6yXjHjnlELpgm6SPQmNr+vmb4XSj9Eey/YGyHemOV/rpwnm+chg+yasOV/ekRbti957UNUjrSdyIUI4w0gRS7xiHlmnqqCqHzdS6zeQNOi3pXIMxjretfL79ykbIlaVsufAXVpRn/7DVAWQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;DNS_check_progress&quot;
+        title=&quot;&quot;
+        src=&quot;/static/06c1d065dc9664db3b065fb18d314ce7/f058b/DNS_check_progress.png&quot;
+        srcset=&quot;/static/06c1d065dc9664db3b065fb18d314ce7/c26ae/DNS_check_progress.png 158w,
+/static/06c1d065dc9664db3b065fb18d314ce7/6bdcf/DNS_check_progress.png 315w,
+/static/06c1d065dc9664db3b065fb18d314ce7/f058b/DNS_check_progress.png 630w,
+/static/06c1d065dc9664db3b065fb18d314ce7/e619b/DNS_check_progress.png 787w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+If your DNS records configuration on Cloudflare was configured correctly, you should see a message as follows
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/486bf370247c896e517877b691f999e0/5e3a3/DNS_check_success.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 22.151898734177216%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwklEQVR42n2Py26DMBAAc63KwwFMAjYPQ3AMTqhokv7/n00F9Baph9FotauR9qBayzB+YeyNq18IkzNBLAlEvhH++T/Wm/C4cuLQ9CPT/GScnxR1j5AlIisRabE5yvY5yTVHqd5Yd3GmiVK1B+vO4ecXfv6htzO6sZjBY28P7LRw99+4aaG5eKrOUZkrqhlYP6uMJdcX0tqTlMMeTApN5Rz1OJKbllCeEGlJ2VjOqmNqLVoZPqKMz1i+EQhJEGeb1+AvbwNoMxgm4UYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;DNS_check_success&quot;
+        title=&quot;&quot;
+        src=&quot;/static/486bf370247c896e517877b691f999e0/f058b/DNS_check_success.png&quot;
+        srcset=&quot;/static/486bf370247c896e517877b691f999e0/c26ae/DNS_check_success.png 158w,
+/static/486bf370247c896e517877b691f999e0/6bdcf/DNS_check_success.png 315w,
+/static/486bf370247c896e517877b691f999e0/f058b/DNS_check_success.png 630w,
+/static/486bf370247c896e517877b691f999e0/5e3a3/DNS_check_success.png 763w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;That&apos;s it! You site should now be live at the domain you configured.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you don&apos;t immediately see the blog live on your domain, dont panic. You may have done everything correctly, but DNS changes can take up to 24 hours to propagate. &lt;a href=&quot;https://ns1.com/resources/dns-propagation#:~:text=DNS%20propagation%20is%20the%20time,typically%20takes%20a%20few%20hours&quot;&gt;DNS propogation&lt;/a&gt; will reach different ISPs(Internet service provider) at different rates.&lt;/p&gt;
+&lt;p&gt;For example immediately after I configured the &lt;code class=&quot;language-text&quot;&gt;wylie-cayote.uk&lt;/code&gt; site, my phone working on mobile data was able to show the blog. However my laptop connected through wifi(different ISP) was still throwing a &lt;code class=&quot;language-text&quot;&gt;DNS_PROBE_FINISHED_NXDOMAIN&lt;/code&gt; which means browser was not able to find the site I was looking for.&lt;/p&gt;
+&lt;p&gt;So chill, take a nap and by the time you come back the DNS records would have updated across the internet and will have reached your ISP as well.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;8&quot;&gt;
+&lt;li&gt;Also, GitHub pages has this problem where every consequent publish using the &lt;code class=&quot;language-text&quot;&gt;npm run deploy&lt;/code&gt; will overwrite the custom domain you configured in the &lt;code class=&quot;language-text&quot;&gt;settings &gt; pages&lt;/code&gt; section of your repository, to an empty string.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To overcome this issue, simply update the &lt;code class=&quot;language-text&quot;&gt;deploy&lt;/code&gt; command as follows.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build --prefix-paths &amp;amp;&amp;amp; gh-pages -d public &amp;amp;&amp;amp; &amp;amp;&amp;amp; echo \&quot;wylie-cayote.uk\&quot; &gt; public/CNAME&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;of course replace the &quot;wylie-cayote.uk&quot; with your domain. This will fix the problem&lt;/p&gt;
+&lt;h6&gt;🤞🏽 I sincerly hope this article was helpful for you in setting up a blog for yourself.&lt;/h6&gt;
+&lt;blockquote&gt;
+&lt;p&gt;At this stage Cloudflare will prompt you to add caching and file compression. Select all the optimisations proposed by cloudflare.&lt;/p&gt;
+&lt;p&gt;It&apos;s free of cost and will improve your site performance significantly.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;For writing new blog posts simply&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Fire up the blog on your computer with &lt;code class=&quot;language-text&quot;&gt;npm start&lt;/code&gt; command.&lt;/li&gt;
+&lt;li&gt;For each new blog create a new folder(folder name can be slug based on post Title) and put an &lt;code class=&quot;language-text&quot;&gt;index.md&lt;/code&gt; file in it. Add title, description and date as described in the step 1.&lt;/li&gt;
+&lt;li&gt;Write your contents and preview in your browser. You can also drop the images in this folder and refer them using the syntax as follows &lt;code class=&quot;language-text&quot;&gt;![Image alt text](./&amp;lt;Name of image file&gt;.&amp;lt;file format&gt;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Once you are satisfied with your post, publish the post by running &lt;code class=&quot;language-text&quot;&gt;npm run deploy&lt;/code&gt; command.&lt;/li&gt;
+&lt;li&gt;That&apos;s it your blog should be published. In case you don&apos;t see the changes reflect immediately it could be because of caching on cloudflare. You can &lt;a href=&quot;https://developers.cloudflare.com/cache/how-to/purge-cache/#purge-everything&quot;&gt;purge cache&lt;/a&gt; to view the changes immediatly.&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Should you return to India after higher education in US ?]]></title><description><![CDATA[I've pondered on this very same question for months on end and finally decided to move back home in June 2019. It's been a year since I…]]></description><link>https://aravindkarnam.com/us-return/</link><guid isPermaLink="false">https://aravindkarnam.com/us-return/</guid><pubDate>Sat, 23 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I&apos;ve pondered on this very same question for months on end and finally decided to move back home in June 2019. It&apos;s been a year since I moved back. I&apos;m writing this post, so it&apos;ll offer you a &quot;point of view&quot; while making your own decision.&lt;/p&gt;
+&lt;p&gt;I graduated with a master’s degree from a state university in 2017 and was working with STEM OPT on F1(student) visa. By early 2019, my H1B visa application got picked in the lottery and was being processed  at snail&apos;s pace by USCIS. I had to endure severe travel restrictions and I only had one more year left on my STEM OPT . I was finding it exhausting to live my life under the thumb of a bureaucratic organisation (USCIS) that didn&apos;t seem to care about value of a person&apos;s life that&apos;s attached to a visa application.&lt;/p&gt;
+&lt;p&gt;Naturally an Idea took shape in my mind, &quot;Would it be so bad to move back home ?&quot;. It took me several sleepless nights, research and planning before I made a decision to move back home in June 2019. I took me 3 hard years in US to get to a job paying 6 figure salary, but I decided to leave it all behind to start my professional journey in India.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ff071c4d7a71456af4639bb1eb68f566/c08c5/arrivals.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.45569620253164%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAGJybLSiMAX/8QAGhAAAwEAAwAAAAAAAAAAAAAAAQIRAAMSIv/aAAgBAQABBQIWtYWA3Dd1OdfX/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BZ//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPwERf//EABwQAAEDBQAAAAAAAAAAAAAAAAABEDEhMpGhwf/aAAgBAQAGPwJOELkqSXab/8QAGRABAQEBAQEAAAAAAAAAAAAAAREAIUGB/9oACAEBAAE/IXCVPc6YOKTDHB9Mx7gaqu//2gAMAwEAAgADAAAAEAcv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAh/9oACAEDAQE/EArkX//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQIBAT8QQOzm3//EAB8QAQABBAIDAQAAAAAAAAAAAAERACExQXGRUWGBsf/aAAgBAQABPxAcjJgCCLF+RpXgaWAU3zmNse+MfK8uNyP7z3TGSDdIX7mjzA3XFf/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Arrivals&quot;
+        title=&quot;&quot;
+        src=&quot;/static/ff071c4d7a71456af4639bb1eb68f566/828fb/arrivals.jpg&quot;
+        srcset=&quot;/static/ff071c4d7a71456af4639bb1eb68f566/ff44c/arrivals.jpg 158w,
+/static/ff071c4d7a71456af4639bb1eb68f566/a6688/arrivals.jpg 315w,
+/static/ff071c4d7a71456af4639bb1eb68f566/828fb/arrivals.jpg 630w,
+/static/ff071c4d7a71456af4639bb1eb68f566/c08c5/arrivals.jpg 640w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Of course you&apos;ll also have to factor in the havoc wreaked by COVID-19 and resulting economic, geo-political and cultural implications.If you are reading this, you probably have a H1B visa already or filed multiple times during your OPT and STEM OPT period without any luck, or looking for Day 1 CPT program to merely be in valid status.&lt;/p&gt;
+&lt;p&gt;First of all the decision to move back will be heavily dependant on your current state of financial affairs in the US. Even though there are countless number of positions in which students from India could be in, while living in US they can be broadly classified into 3 categories.&lt;/p&gt;
+&lt;h4&gt;Extreme financial stability&lt;/h4&gt;
+&lt;p&gt;You&apos;ve recovered the cost of your US education (BS/MS degree). You made good money on top of that. You have a cushy job in some massive corporation(Microsoft, Google etc) that pays you handsomely, treats you well, takes good care of filing your H1B petition.&lt;/p&gt;
+&lt;h4&gt;Moderate financial stability&lt;/h4&gt;
+&lt;p&gt;You&apos;ve recovered the cost of US education and made decent money on top of that, but there&apos;s uncertainty in job situation. You work as a contractor/consultant, in a long term project with good hourly pay. The company that&apos;s placing you in third party site/client, is decent (takes a reasonable cut from what the client is paying hourly) and takes immense care in processing your H1B application.  You have good relationship with the client and they are immensely dependant on you for project.&lt;/p&gt;
+&lt;h4&gt;Poor financial stability&lt;/h4&gt;
+&lt;p&gt;You were not able to recover cost of your US education and couldn&apos;t land a job post graduation. You joined some shady consultancy (these are mostly run by Andhra guys settled in US in the 90&apos;s) and they placed you in a third party site by faking everything on your resume from your skills to experience. Probably they even had someone else take the interview call for you. Once placed they dock a huge percentage of your pay and leave you peanuts as salary. H1b application is a nightmare and you have to pay for filing out of  your own pocket. You are afraid that any day your client/site will catch your lies about experience and fire you. I know many poor souls who got stuck in this category and it is absolute hell.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;My analysis could be applied to any of the categories above as the long term risk of staying in US on a H1B is same for all categories in my opinion. Only purpose of the above classification is in assessing the opportunity cost, in leaving your US life behind.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Even though you may be financially stable today, an unexpected recession and cost cutting strategy of your company may leave you job less and you could be joining a douchebag consultancy just to stay in status. Only things stopping your downfall is your level of desperation and the amount of moral degeneracy you can tolerate.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Before I go further, few may look at successful immigrant stories like Satya Nadella. Sunder Picchai and vinod khosla to argue that I&apos;m wrong in my opinions. Indian diaspora that makes you believe that this wild goose chase behind a green card is possible, immigrated to US in a different era with a different political landscape.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bcac18cf1aeb1036d5f96e146ae8af4f/8efc2/diaspora.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.69620253164557%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACr0lEQVR42l2SW0hUURiFh6CHoKeKyIcuZJSgVpgiBIURBvmglVjZ9cEMguxGWd66EKHSxUxUGrtACF0go9I0KA3UKbTUccamCFFnRpkcE8dz5nJmzpwvzj5C0IYf9t5r/4v177VMAKqqoapRVFUlGtUIhULMzs4iSZIo/RwIBMSdLMtiL0ny3PuoKE3TdCpM/Lc0LYrH48ZutzM4OIjNZmNkZIShoSEcDoeo4eFhPBNOoqr6fzsmSQrS1jbBu1Ynb1oGaG5xY7V6Bair09X4/TJ+WRZnRQkRicK9xg5uVpt50fSOZy9eM2R3GIRjTh+xa1pYtTyLzC0JxCw9xPlCmwBlyS9GUaPGOMFgUIyvr7wiM6eO7KOh6ATZ2fk0vWw2CN3jQeLiH3IhPZmusjR2JidQdrXTUCj70RQ/M5Ymxu29RDQIK2E0NcLYl1Z+PSqh+0oudbdq6Om1G4ROt5+NSY2c2ZZKY14K5oPbqLvdbhD6g8yM/eTD7fO8qq1ACUeIhMMCe/5+kLfl53h/aS8Fx05j6fxsELrcEqlb+8lPy6b11EYKd5dy+caEbg8+feSAj49VF2l9cl80KKGQMG7/8WK2J8WzJyWWhfNM1FffMQgnPAHWp1nZkHia8l0rOZtTQOF14w+tth9UVN6l/VE5J48ewPz4mXA2EAiSnpJI7KIFrItZwuL5Juqqbs0pHJ9i9aYjZOReo7m8gKqSPEorawT44PFTkjdnUFZcRFZWDpl7Dosc6sbs3rmDzQlr2ZqUSNyKZTTU1xqEkUiEvoFvfOn5yvfvP+jr72fSOylA79QUXV0Wuru7ae/4RF9fv+G6quJyubBaB+jt6eGzxcL0n+l/wVYURYR3dHQUt9s9F3AjKl6vF6fTJcIsS5K400XM+nwCm/R68Xg8/P49KXj+AkK10NKRhiWPAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Diaspora&quot;
+        title=&quot;&quot;
+        src=&quot;/static/bcac18cf1aeb1036d5f96e146ae8af4f/f058b/diaspora.png&quot;
+        srcset=&quot;/static/bcac18cf1aeb1036d5f96e146ae8af4f/c26ae/diaspora.png 158w,
+/static/bcac18cf1aeb1036d5f96e146ae8af4f/6bdcf/diaspora.png 315w,
+/static/bcac18cf1aeb1036d5f96e146ae8af4f/f058b/diaspora.png 630w,
+/static/bcac18cf1aeb1036d5f96e146ae8af4f/8efc2/diaspora.png 828w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;There were no lengthy waitlists for green card. Easier access to green card or citizenship meant they could have a slice of the American dream and eat it. Therefore could forgo their past life in India and still live a happier life.&lt;/p&gt;
+&lt;p&gt;My arguments below &lt;strong&gt;only&lt;/strong&gt; apply to people who immigrated to US after 2010, for higher education and career prospects. On a H1B work visa you’e subjected to the following conditions-&lt;/p&gt;
+&lt;h4&gt;Unending uncertainty&lt;/h4&gt;
+&lt;p&gt;As long as your visa is tied to your job and you can be fired from your job with two weeks notice (which is almost any job in private sector), leaves a high amount of uncertainty looming over your head. If you get fired, H1B requires you have to move out of US within one or two months, or risk loosing your status. Worst case scenario, You&apos;ll pay some kind fraud consultancy to run a payroll for you, just to maintain status.&lt;/p&gt;
+&lt;p&gt;This uncertainty may be an acceptable pain when you are a bachelor with limited responsibilities, but try doing that being a family man. Your life could become hell. Any news of economic instability will cause fear and frustration. The only thing that can give you any solace is if you had some kind of a leverage on your employer (project cannot run without you), but that&apos;s very hard to achieve and can happen only if your manager/boss is a village idiot.&lt;/p&gt;
+&lt;h4&gt;Vulnerability to exploitation &lt;/h4&gt;
+&lt;p&gt;Your employer knows that you need this job badly and that your right to live in the country(visa) depends on it. They know that you will be reluctant to move to an unfamiliar employer, even if they offered better remuneration or work environment. The paperwork to change jobs (H1B visa transfer) itself is a bureaucratic mess with accompanying travel restrictions.&lt;/p&gt;
+&lt;p&gt;Instead of trying to motivate you with bonuses, pay rise and promotions there is a good chance your manager will just remind you how lucky you are to just have this job. It will become harder to stomach this when your other colleagues(citizens) get a different treatment compared to you. This vulnerability becomes even more evident when you are placed in a third party site by a consultancy. While there are some good consultancies out there, most of them fleece the employees by taking 20% to 50% of their pay checks without health-insurance, severance packages etc. Imagine living life under someones boot, for years on end like that.&lt;/p&gt;
+&lt;h4&gt;Not being there with your family and friends in India&lt;/h4&gt;
+&lt;p&gt;While you are busy running the rat race in US, your people in India are living their lives without you in it. You are missing your cousin&apos;s marriages, grandparent&apos;s funerals and parents retirements etc. At some point people over there are going to stop missing you.&lt;/p&gt;
+&lt;p&gt;In the end, it may be worth it if the life you are living in US is tangible, but it&apos;s not. Your life in US can be uprooted with months or weeks to spare or in a second&apos;s stroke of president&apos;s pen. US will discard you to your third world country the minute they figure out you are not useful to them. You have no rights there and you cannot protest. When you are finally booted out from US, you may not have the same life in India that you had when you left for US. People have moved on without you. Is it worth missing your loved ones, for a life that&apos;s so fragile. Even in India you are still going to run a rat race, but it will be far more meaningful.&lt;/p&gt;
+&lt;h4&gt;Lack of freedom in choice of livelihood&lt;/h4&gt;
+&lt;p&gt;Any type of work visa comes with a plethora of conditions on salary, job site, nature of work (STEM fields etc) which means there will be plenty of opportunities that you will be interested in but couldn&apos;t take up.&lt;/p&gt;
+&lt;p&gt;For example, you might want to work in a high growth startup but the salary may not be market rate for that role. However you want to take it up because you see the upside in working for the startup, but try explaining it to USCIS. How about one day you are done working your 9 to 5 job and want to open a restaurant or own a farm. Maybe you just had a personal tragedy and want to take a break from job for a year!! You can&apos;t do any of this on H1B unless you also work a 9 to 5 STEM job and your&apos;e definitely not going to get green card until you are too old and out of energy.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you already don&apos;t know, most people don&apos;t usually retire in private sector jobs. One day they get fired and won&apos;t be able to find a job anymore. Imagine your life, if you are on a temp work visa on that day. You are married with kids, a house on mortgage and car on lease. Your kids are so out of touch with life in your home country and you can&apos;t even fathom coming back to it. You cannot legally stay in your adopted country. Imagine that misery.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Personally I care more about protecting myself from misery than optimising for fleeting happiness. So that&apos;s where I&apos;m coming from.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;By all means I&apos;m not against spending a few(5 to 6) years in the US and earn a few lakh rupees before coming back. However if you intend to stay on a temp work visa for decades (till you turn 50), raise your kids in US, buy a house and build your life, you are in for a roller coaster ride and probably you will end up in an accident before the ride ends.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/27e0c90f92522ca65dfb09050625f3a1/23296/allure.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 67.72151898734178%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD4UlEQVR42h3DaU+TBwDA8SdmH2E6nQcB5wFOATHccgYpFDuLwaqICAzLnMAsQotpn5ZeSCltpUhFoKhAKR1Q7nNuvmBxC46grEy36IJOM/dyH2D/Jf6Sn6DR6rHa7BiNTbQ5HdhvuXF13MY/PMTI2Chv32zy8Mef0TucaJosqE0iTU4LwaV5Qpvvef3+X2ZnZpkcn+Tvd+8Qtu2OID3nBLHH4kg+fhyJTE5B4WmuN6hQ32jgeWiNHv8IKUVF7DqWhEx5ic7hAR6uvuLXf/5j+ckGHs8dbDYXLzY2EMIjY8jOlSDJkyCTn+L0+WLKq5SI+htoGtVMfTvInb4Bss8UoXW5GFp4hNvvxx0YYXl9k65uL923PVhsbv568xrhYEw8nx2IIurzwyjOKZArFJRWlGE2i4iiho5WC/WNWmrUIpPLT+if+Y54WT6mbi9Lq+t47vsY9tzDYLTw6uVLhNjEVNIyMjlyJJrDMXGk5+RysawEs0WHvdWI0yJSfP4syqt1jM49prG9B2lZKQ9mlnBPBHH29tF+046yuo4Xv/+BELE/kqycXCT5BeRK8sjNL+BSeSmaxjrMFpFmnRrpSSmXqmrp9Y0TX6ige+4hy6G3eEZGUel0aFTXudZgIBTaQAgL38e+A1Ecij5KTFw88YnJfCE/RaWyAlGnobHmK8ovXuBuzyDODi8JMgltY3N0TS7ypb4BecllXG1dKGvqebyygrB9x24+3RlGxN59pGflkHQ8g0+2h3EiL5+K6ioqr5QjL5BiMLbS6ulH13Gfpt4pDD1B9J1easVW3AOLXLPeZX39GcLOPeHEJaRgtTkIjk9QXf0NyitXcbTZEa0GjHYTpZUVSM9dpvR6K+oWL0NLz/BOr6Cx+dCbXbR3D6B2BdgIrSOcKSlBKiskITmDA/sj2bU7nLLKyxiMegwmPd6+LtS6BmJT0ojPlPL1tTrmHv3E9yvPMba4MBhM+H0BqtRGnq6tIhxNTCclM4+9B6OJij5GcloGWTk5FJ1TYG42MzU9TtEZOUmZWdSbnDR39NHZP/Zh/+QPdA0GMd+6S9vtXtaeriN8vHUHh47EkpqVh0xxgWyJhNSMdBTFxdgddtxuB1qtFq3xJub2Ppz3JrG5e6iuVeEenKXTN0tPYIGWzkF+WQshbNnyEdu2bmNPWARR0XHsPxRNQmo6J08Voqqvx2xpolHUUy/eRNvSgcHlRWvzUKNrodnjQ+/0fthg9bD67DcElaoOUafHaLZiMJppMlnp7OrG4Wrnfn8/84sLDPiHuOcLMDQSZCg4zeDoNL6xGQIT8wyPz+EPzvIgMMHLPzf5H5vMr+6V3QAZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Allure&quot;
+        title=&quot;&quot;
+        src=&quot;/static/27e0c90f92522ca65dfb09050625f3a1/f058b/allure.png&quot;
+        srcset=&quot;/static/27e0c90f92522ca65dfb09050625f3a1/c26ae/allure.png 158w,
+/static/27e0c90f92522ca65dfb09050625f3a1/6bdcf/allure.png 315w,
+/static/27e0c90f92522ca65dfb09050625f3a1/f058b/allure.png 630w,
+/static/27e0c90f92522ca65dfb09050625f3a1/23296/allure.png 675w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The allure of living in a society where roads are wide, rules are followed, shit flows underground, contracts are enforced, is understandable. For a generation that grew up on watching American TV shows and aspired for the American dream, it&apos;s really hard to throw it all away and move back home and deal with all the pains of a growing economy. Having said that home is where you&apos;ll be truly free. Since 2008-2010 period, H1B has become a golden cage for those who intend to achieve the American dream with it.&lt;/p&gt;
+&lt;p&gt;No amount of creature comforts can make you forget the fact that the life, you are so carefully crafting can be uprooted at a moment&apos;s notice. &lt;strong&gt;It is at the mercy of a system that only means to juice you and discard you like pulp.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I feel much better since moving home, building a future for people who invested in my life since I was a kid. Sure, I miss the road trips to sprawling US national parks during the long weekends, however that hole is filled by frequent visits to my parent&apos;s, and friends that I grew up with. At this point, Corona pandemic has caused Americans to take further steps that will strangle people living in US on H1B program.&lt;/p&gt;
+&lt;p&gt;💡 My advice...&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&apos;t wait till they grab you by the collar and throw you out. Take the cue and come back.&lt;/p&gt;
+&lt;p&gt;The post colonial world order that was set at the end of World war II is coming to an end. There&apos;s no knowing who will come on top this time. May be its China or may be its not, but it&apos;s definitely not America. Today&apos;s American culture is not the same culture that sent humans to the moon. There&apos;s no oppurnity cost from not living in US anymore!&lt;/p&gt;
+&lt;p&gt;Even though the tech scene in India cannot compare to that of bay area, it&apos;s not nothing. There&apos;s great salaries and growth opportunities in the new age startups. India is minting new unicorns and decacorns every other week. Come home and build your future in a place where your ancestors have lived for centuries and you cannot be kicked out.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item></channel></rss>
