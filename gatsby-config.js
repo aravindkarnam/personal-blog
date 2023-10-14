@@ -9,19 +9,30 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Aravind Karnam`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Aravind Karnam.`,
+      summary: `Software developer, product manager & amateur designer`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Articles on product management, user adoption, user experience, design, customer onboarding, product led growth, problem solving. Helping programmers break into product management careers`,
+    siteUrl: `https://aravindkarnam.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `aravind_karnam`,
+      github: `aravindkarnam`,
+      linkedin: 'aravindkarnam'
     },
   },
   plugins: [
     `gatsby-plugin-image`,
+    'gatsby-plugin-postcss',
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /icons/ // See below to configure properly
+        }
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
