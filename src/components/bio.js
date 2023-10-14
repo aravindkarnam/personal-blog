@@ -51,7 +51,7 @@ const Bio = () => {
         <p className="flex items-center justify-center text-2xl font-extrabold mt-2 text-center">
           {author?.name || ""}
         </p>
-        <p className="flex items-center justify-center text-base font-light mt-2 text-center">
+        <p className="flex items-center justify-center text-base font-light mt-2 text-center mx-8">
           {author?.summary || ""}
         </p>
       </div>
