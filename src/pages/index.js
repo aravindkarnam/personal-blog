@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { AiOutlineMail, AiOutlineDownload } from "react-icons/ai"
 import { ImSpinner7 } from "react-icons/im"
+import { HiOutlineAcademicCap } from "react-icons/hi2"
 import { BsBriefcase } from "react-icons/bs"
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -140,7 +141,7 @@ const BlogIndex = ({ data, location }) => {
                   })}
                 </ol>
                 <div className="space-y-10 lg:pl-16 xl:pl-24">
-                  <form
+                  {/* <form
                     onSubmit={handleSubmit}
                     className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
                   >
@@ -182,7 +183,7 @@ const BlogIndex = ({ data, location }) => {
                         </button>
                       </div>
                     )}
-                  </form>
+                  </form> */}
                   <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
                     <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
                       <BsBriefcase className="h-5 w-5 flex-none" />
@@ -364,6 +365,81 @@ const BlogIndex = ({ data, location }) => {
                       Download CV
                       <AiOutlineDownload className="h-4 w-4" />
                     </a>
+                  </div>
+                  <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+                    <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+                      <HiOutlineAcademicCap className="h-5 w-5 flex-none" />
+                      <span className="ml-3">Education</span>
+                    </h2>
+                    <ol className="mt-6 space-y-4">
+                      <li className="flex gap-4">
+                        <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+                          <StaticImage
+                            className="rounded-full h-9 w-9"
+                            layout="fixed"
+                            formats={["auto", "webp", "avif"]}
+                            src="../images/csus.jpeg"
+                            width={30}
+                            height={30}
+                            quality={95}
+                            alt="University logo"
+                          />
+                        </div>
+                        <dl className="flex flex-auto flex-wrap gap-x-2">
+                          <dt className="sr-only">University</dt>
+                          <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
+                            California State University, Sacramento
+                          </dd>
+                          <dt className="sr-only">Degree</dt>
+                          <dd className="text-xs text-zinc-500 dark:text-zinc-400">
+                            Masters in Computer Engineering
+                          </dd>
+                          <dt className="sr-only">Date</dt>
+                          <dd
+                            className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
+                            aria-label="Sep 2019 until Present"
+                          >
+                            <time datetime="2019">Jan 2015</time>{" "}
+                            <span aria-hidden="true">—</span>{" "}
+                            <time datetime="2023">May 2017</time>
+                          </dd>
+                        </dl>
+                      </li>
+                      <li className="flex gap-4">
+                        <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+                          <StaticImage
+                            className="rounded-full h-9 w-9"
+                            layout="fixed"
+                            formats={["auto", "webp", "avif"]}
+                            src="../images/svu.jpeg"
+                            width={30}
+                            height={30}
+                            quality={95}
+                            alt="University logo"
+                          />
+                        </div>
+                        <dl className="flex flex-auto flex-wrap gap-x-2">
+                          <dt className="sr-only">University</dt>
+                          <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
+                            Sri venkateswara University, Tirupati
+                          </dd>
+                          <dt className="sr-only">Degree</dt>
+                          <dd className="text-xs text-zinc-500 dark:text-zinc-400">
+                            Bachelor of Technology, Electronics Instrumentation
+                            & Control Engineering
+                          </dd>
+                          <dt className="sr-only">Date</dt>
+                          <dd
+                            className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
+                            aria-label="Mar 2018 until Jun 2019"
+                          >
+                            <time datetime="2018">Sept 2009</time>{" "}
+                            <span aria-hidden="true">—</span>{" "}
+                            <time datetime="2019">May 2013</time>
+                          </dd>
+                        </dl>
+                      </li>
+                    </ol>
                   </div>
                 </div>
               </div>
