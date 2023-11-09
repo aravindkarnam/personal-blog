@@ -14,7 +14,7 @@ module.exports = {
       name: `Aravind Karnam.`,
       summary: `Software developer, product manager & amateur designer`,
     },
-    description: `Articles on product management, user adoption, user experience, design, customer onboarding, product led growth, problem solving. Helping programmers break into product management careers`,
+    description: `Hi! Welcome to my digital home. I'm a software developer, product manager & amateur designer. Learn more about me.`,
     siteUrl: `https://aravindkarnam.com/`,
     social: {
       twitter: `aravind_karnam`,
