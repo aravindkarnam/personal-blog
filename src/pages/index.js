@@ -47,14 +47,14 @@ const BlogIndex = ({ data, location }) => {
 
   if (posts.length === 0) {
     return (
-      <Layout location={location} title={siteTitle}>
-        <Bio />
-        <p>
-          No blog posts found. Add markdown posts to "content/blog" (or the
-          directory you specified for the "gatsby-source-filesystem" plugin in
-          gatsby-config.js).
-        </p>
-      </Layout>
+        <Layout location={location} title={siteTitle}>
+          <Bio />
+          <p>
+            No blog posts found. Add markdown posts to "content/blog" (or the
+            directory you specified for the "gatsby-source-filesystem" plugin in
+            gatsby-config.js).
+          </p>
+        </Layout>
     )
   }
 
@@ -83,7 +83,7 @@ const BlogIndex = ({ data, location }) => {
                           <header>
                             <time
                               className="relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-3.5"
-                              datetime="2022-09-05"
+                              dateTime="2022-09-05"
                             >
                               <span
                                 className="absolute inset-y-0 left-0 flex items-center"
@@ -128,9 +128,9 @@ const BlogIndex = ({ data, location }) => {
                               >
                                 <path
                                   d="M6.75 5.75 9.25 8l-2.5 2.25"
-                                  stroke-width="1.5"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeWidth="1.5"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 ></path>
                               </svg>
                             </div>
@@ -217,9 +217,9 @@ const BlogIndex = ({ data, location }) => {
                             className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
                             aria-label="Sep 2019 until Present"
                           >
-                            <time datetime="2019">Sep 2019</time>{" "}
+                            <time dateTime="2019">Sep 2019</time>{" "}
                             <span aria-hidden="true">—</span>{" "}
-                            <time datetime="2023">Present</time>
+                            <time dateTime="2024">Present</time>
                           </dd>
                         </dl>
                       </li>
@@ -250,9 +250,9 @@ const BlogIndex = ({ data, location }) => {
                             className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
                             aria-label="Mar 2018 until Jun 2019"
                           >
-                            <time datetime="2018">Mar 2018</time>{" "}
+                            <time dateTime="2018">Mar 2018</time>{" "}
                             <span aria-hidden="true">—</span>{" "}
-                            <time datetime="2019">Jun 2019</time>
+                            <time dateTime="2019">Jun 2019</time>
                           </dd>
                         </dl>
                       </li>
@@ -283,9 +283,9 @@ const BlogIndex = ({ data, location }) => {
                             className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
                             aria-label="Dec 2016 until Feb 2018"
                           >
-                            <time datetime="2016">Dec 2016</time>{" "}
+                            <time dateTime="2016">Dec 2016</time>{" "}
                             <span aria-hidden="true">—</span>{" "}
-                            <time datetime="2018">Feb 2018</time>
+                            <time dateTime="2018">Feb 2018</time>
                           </dd>
                         </dl>
                       </li>
@@ -316,9 +316,9 @@ const BlogIndex = ({ data, location }) => {
                             className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
                             aria-label="2008 until 2011"
                           >
-                            <time datetime="2018">Aug 2016</time>{" "}
+                            <time dateTime="2018">Aug 2016</time>{" "}
                             <span aria-hidden="true">—</span>{" "}
-                            <time datetime="2011">Dec 2016</time>
+                            <time dateTime="2011">Dec 2016</time>
                           </dd>
                         </dl>
                       </li>
@@ -349,9 +349,9 @@ const BlogIndex = ({ data, location }) => {
                             className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
                             aria-label="Mar 2015 until Aug 2016"
                           >
-                            <time datetime="2015">Mar 2015</time>{" "}
+                            <time dateTime="2015">Mar 2015</time>{" "}
                             <span aria-hidden="true">—</span>{" "}
-                            <time datetime="2016">Aug 2016</time>
+                            <time dateTime="2016">Aug 2016</time>
                           </dd>
                         </dl>
                       </li>
@@ -399,9 +399,9 @@ const BlogIndex = ({ data, location }) => {
                             className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
                             aria-label="Sep 2019 until Present"
                           >
-                            <time datetime="2019">Jan 2015</time>{" "}
+                            <time dateTime="2019">Jan 2015</time>{" "}
                             <span aria-hidden="true">—</span>{" "}
-                            <time datetime="2023">May 2017</time>
+                            <time dateTime="2023">May 2017</time>
                           </dd>
                         </dl>
                       </li>
@@ -421,7 +421,7 @@ const BlogIndex = ({ data, location }) => {
                         <dl className="flex flex-auto flex-wrap gap-x-2">
                           <dt className="sr-only">University</dt>
                           <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
-                            Sri venkateswara University, Tirupati
+                            Sri Venkateswara University, Tirupati
                           </dd>
                           <dt className="sr-only">Degree</dt>
                           <dd className="text-xs text-zinc-500 dark:text-zinc-400">
@@ -433,9 +433,9 @@ const BlogIndex = ({ data, location }) => {
                             className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
                             aria-label="Mar 2018 until Jun 2019"
                           >
-                            <time datetime="2018">Sept 2009</time>{" "}
+                            <time dateTime="2018">Sept 2009</time>{" "}
                             <span aria-hidden="true">—</span>{" "}
-                            <time datetime="2019">May 2013</time>
+                            <time dateTime="2019">May 2013</time>
                           </dd>
                         </dl>
                       </li>
@@ -459,7 +459,7 @@ export default BlogIndex
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
 export const Head = ({ data }) => {
-  const pageTitle =  `Home`
+  const pageTitle = `Home`
   return <Seo pageTitle={pageTitle} />
 }
 

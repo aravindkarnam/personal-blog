@@ -3,3 +3,11 @@
 @tailwind utilities;
 /* CSS Custom Properties Definitions */
 
+body {
+ background-color: #fafafa;
+}
+
+body.dark{
+ background-color: #000000;
+}
+

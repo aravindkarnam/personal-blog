@@ -23,7 +23,12 @@ const BlogPostTemplate = ({
                       type="button"
                       to="/"
                       aria-label="Go back to articles"
-                      className="group mb-8 flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0 dark:ring-white/10 dark:hover:border-zinc-700 dark:hover:ring-white/20 lg:absolute lg:-left-5 lg:-mt-2 lg:mb-0 xl:-top-1.5 xl:left-0 xl:mt-0"
+                      className="group mb-8 flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md
+                      shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition dark:border 
+                      dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0
+                      dark:text-white/30
+                      dark:ring-white/10 dark:hover:border-zinc-700
+                      dark:hover:ring-white/20 lg:absolute lg:-left-5 lg:-mt-2 lg:mb-0 xl:-top-1.5 xl:left-0 xl:mt-0"
                     >
                       <BsArrowLeft/>
                     </Link>
@@ -33,7 +38,7 @@ const BlogPostTemplate = ({
                           {post.frontmatter.title}
                         </h1>
                         <time
-                          datetime="2022-09-05"
+                          dateTime="2022-09-05"
                           className="order-first flex items-center text-base text-zinc-400 dark:text-zinc-500"
                         >
                           <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span>
