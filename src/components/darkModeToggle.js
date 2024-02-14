@@ -3,7 +3,7 @@ import { MdDarkMode } from "react-icons/md"
 import { BsBrightnessHigh } from "react-icons/bs"
 
 const DarkModeToggle = () => {
-  const prevDarkState = JSON.parse(localStorage.getItem("dark") || false);
+  const prevDarkState =  typeof window !== 'undefined' ? JSON.parse(localStorage.getItem("dark") || false) : false;
   const [darkMode, setDarkMode] = useState(prevDarkState)
 
   const toggleDarkMode = () => {
