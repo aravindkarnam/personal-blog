@@ -17,7 +17,7 @@ const Footer = ({title}) => {
                         className="rounded-full"
                         layout="fixed"
                         formats={["auto", "webp", "avif"]}
-                        src="../images/profile-pic.jpeg"
+                        src="../images/profile-pic.png"
                         width={30}
                         height={30}
                         quality={95}

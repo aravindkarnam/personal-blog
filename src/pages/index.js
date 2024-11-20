@@ -47,14 +47,14 @@ const BlogIndex = ({ data, location }) => {
 
   if (posts.length === 0) {
     return (
-        <Layout location={location} title={siteTitle}>
-          <Bio />
-          <p>
-            No blog posts found. Add markdown posts to "content/blog" (or the
-            directory you specified for the "gatsby-source-filesystem" plugin in
-            gatsby-config.js).
-          </p>
-        </Layout>
+      <Layout location={location} title={siteTitle}>
+        <Bio />
+        <p>
+          No blog posts found. Add markdown posts to "content/blog" (or the
+          directory you specified for the "gatsby-source-filesystem" plugin in
+          gatsby-config.js).
+        </p>
+      </Layout>
     )
   }
 
@@ -196,6 +196,39 @@ const BlogIndex = ({ data, location }) => {
                             className="rounded-full h-9 w-9"
                             layout="fixed"
                             formats={["auto", "webp", "avif"]}
+                            src="../images/reelsify.png"
+                            width={30}
+                            height={30}
+                            quality={95}
+                            alt="Company logo"
+                          />
+                        </div>
+                        <dl className="flex flex-auto flex-wrap gap-x-2">
+                          <dt className="sr-only">Company</dt>
+                          <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
+                            Reelsify
+                          </dd>
+                          <dt className="sr-only">Role</dt>
+                          <dd className="text-xs text-zinc-500 dark:text-zinc-400">
+                            Founder
+                          </dd>
+                          <dt className="sr-only">Date</dt>
+                          <dd
+                            className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
+                            aria-label="Sep 2019 until Present"
+                          >
+                            <time dateTime="2019">Aug 2024</time>{" "}
+                            <span aria-hidden="true">—</span>{" "}
+                            <time dateTime="2024">present</time>
+                          </dd>
+                        </dl>
+                      </li>
+                      <li className="flex gap-4">
+                        <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+                          <StaticImage
+                            className="rounded-full h-9 w-9"
+                            layout="fixed"
+                            formats={["auto", "webp", "avif"]}
                             src="../images/urbanpiper.png"
                             width={30}
                             height={30}
@@ -219,7 +252,7 @@ const BlogIndex = ({ data, location }) => {
                           >
                             <time dateTime="2019">Sep 2019</time>{" "}
                             <span aria-hidden="true">—</span>{" "}
-                            <time dateTime="2024">Present</time>
+                            <time dateTime="2024">Jun 2024</time>
                           </dd>
                         </dl>
                       </li>

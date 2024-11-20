@@ -6,7 +6,7 @@
  */
 
 import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import {FiLinkedin,FiGithub ,FiTwitter} from "react-icons/fi";
 
@@ -40,7 +40,7 @@ const Bio = () => {
           className="rounded-full"
           layout="fixed"
           formats={["auto", "webp", "avif"]}
-          src="../images/profile-pic.jpeg"
+          src="../images/profile-pic.png"
           width={125}
           height={125}
           quality={95}
@@ -51,8 +51,11 @@ const Bio = () => {
         <p className="flex items-center justify-center text-2xl font-extrabold mt-2 text-center">
           {author?.name || ""}
         </p>
-        <p className="flex items-center justify-center text-base font-light mt-2 text-center mx-8">
+        {/* <p className="flex items-center justify-center text-base font-light mt-2 text-center mx-8">
           {author?.summary || ""}
+        </p> */}
+        <p className="flex items-center justify-center text-base font-light mt-2 text-center mx-8">
+          {"Building "}&#160;<Link href='https://reelsify.app' className="underline" target="_blank">reelsify.app</Link>
         </p>
       </div>
       <div className="flex flex-row flex-wrap my-4 items-center justify-center">

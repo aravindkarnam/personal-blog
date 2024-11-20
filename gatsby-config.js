@@ -12,9 +12,9 @@ module.exports = {
     title: `Aravind Karnam`,
     author: {
       name: `Aravind Karnam.`,
-      summary: `Software developer, product manager & amateur designer`,
+      summary: `I make software products`,
     },
-    description: `Hi! Welcome to my digital home. I'm a software developer, product manager & amateur designer. Learn more about me.`,
+    description: `Hi! Welcome to my digital home. I make software products. Currently building https://reelsify.app`,
     siteUrl: `https://aravindkarnam.com/`,
     social: {
       twitter: `aravind_karnam`,
@@ -125,7 +125,7 @@ module.exports = {
         short_name: `Aravind Karnam`,
         start_url: `/`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/profile-pic.png`, // This path is relative to the root of the site.
       },
     },
   ],
