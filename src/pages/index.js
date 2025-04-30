@@ -196,7 +196,7 @@ const BlogIndex = ({ data, location }) => {
                             className="rounded-full h-9 w-9"
                             layout="fixed"
                             formats={["auto", "webp", "avif"]}
-                            src="../images/reelsify.png"
+                            src="../images/Crawl4AI.png"
                             width={30}
                             height={30}
                             quality={95}
@@ -206,18 +206,18 @@ const BlogIndex = ({ data, location }) => {
                         <dl className="flex flex-auto flex-wrap gap-x-2">
                           <dt className="sr-only">Company</dt>
                           <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
-                            Reelsify
+                            Crawl4AI
                           </dd>
                           <dt className="sr-only">Role</dt>
                           <dd className="text-xs text-zinc-500 dark:text-zinc-400">
-                            Founder
+                            Head of Product & Community
                           </dd>
                           <dt className="sr-only">Date</dt>
                           <dd
                             className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
                             aria-label="Sep 2019 until Present"
                           >
-                            <time dateTime="2019">Aug 2024</time>{" "}
+                            <time dateTime="2019">Jan 2025</time>{" "}
                             <span aria-hidden="true">—</span>{" "}
                             <time dateTime="2024">present</time>
                           </dd>

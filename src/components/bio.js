@@ -55,7 +55,7 @@ const Bio = () => {
           {author?.summary || ""}
         </p> */}
         <p className="flex items-center justify-center text-base font-light mt-2 text-center mx-8">
-          {"Building "}&#160;<Link href='https://reelsify.app' className="underline" target="_blank">reelsify.app</Link>
+          {"Head of Product & Community "}&#160;<Link href='https://crawl4ai.com' className="underline" target="_blank">crawl4ai</Link>
         </p>
       </div>
       <div className="flex flex-row flex-wrap my-4 items-center justify-center">

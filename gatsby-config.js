@@ -14,7 +14,7 @@ module.exports = {
       name: `Aravind Karnam.`,
       summary: `I make software products`,
     },
-    description: `Hi! Welcome to my digital home. I make software products. Currently building https://reelsify.app`,
+    description: `Hi! Welcome to my digital home. I make software products. Currently heading product & community at Crawl4AI`,
     siteUrl: `https://aravindkarnam.com/`,
     social: {
       twitter: `aravind_karnam`,
