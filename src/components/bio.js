@@ -40,7 +40,7 @@ const Bio = () => {
           className="rounded-full"
           layout="fixed"
           formats={["auto", "webp", "avif"]}
-          src="../images/profile-pic.png"
+          src="../images/profile-pic.jpeg"
           width={125}
           height={125}
           quality={95}
