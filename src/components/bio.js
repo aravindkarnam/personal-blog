@@ -6,9 +6,9 @@
  */
 
 import * as React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import {FiLinkedin,FiGithub ,FiTwitter} from "react-icons/fi";
+import { FiLinkedin, FiGithub, FiTwitter } from "react-icons/fi"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -40,7 +40,7 @@ const Bio = () => {
           className="rounded-full"
           layout="fixed"
           formats={["auto", "webp", "avif"]}
-          src="../images/profile-pic.jpeg"
+          src="../images/profile-pic.png"
           width={125}
           height={125}
           quality={95}
@@ -51,11 +51,16 @@ const Bio = () => {
         <p className="flex items-center justify-center text-2xl font-extrabold mt-2 text-center">
           {author?.name || ""}
         </p>
-        {/* <p className="flex items-center justify-center text-base font-light mt-2 text-center mx-8">
-          {author?.summary || ""}
-        </p> */}
         <p className="flex items-center justify-center text-base font-light mt-2 text-center mx-8">
-          {"Head of Product & Community "}&#160;<Link href='https://crawl4ai.com' className="underline" target="_blank">crawl4ai</Link>
+          {"VP of Engineering "}&#160;
+          <a
+            href="https://www.novulis.com/"
+            className="underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Novulis
+          </a>
         </p>
       </div>
       <div className="flex flex-row flex-wrap my-4 items-center justify-center">
@@ -67,7 +72,8 @@ const Bio = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FiTwitter className="m-1"/><p className="px-1">{social?.twitter || ``}</p>
+          <FiTwitter className="m-1" />
+          <p className="px-1">{social?.twitter || ``}</p>
         </a>
         <a
           className="flex h-auto group rounded-full bg-white/90 px-3 py-2 m-2 shadow-lg text-sm font-light
@@ -77,7 +83,8 @@ const Bio = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FiGithub  className="m-1" /><p className="px-1">{social?.github || ``}</p>
+          <FiGithub className="m-1" />
+          <p className="px-1">{social?.github || ``}</p>
         </a>
         <a
           className="flex h-auto group rounded-full bg-white/90 px-3 py-2 m-2 shadow-lg text-sm font-light
@@ -87,7 +94,8 @@ const Bio = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-         <FiLinkedin  className="m-1"/><p className="px-1"> {social?.linkedin || ``}</p>
+          <FiLinkedin className="m-1" />
+          <p className="px-1"> {social?.linkedin || ``}</p>
         </a>
       </div>
     </div>

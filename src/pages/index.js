@@ -192,6 +192,34 @@ const BlogIndex = ({ data, location }) => {
                     <ol className="mt-6 space-y-4">
                       <li className="flex gap-4">
                         <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+                          <img
+                            className="h-6 w-6"
+                            src="/novulis-mark.svg"
+                            alt="Novulis logo"
+                          />
+                        </div>
+                        <dl className="flex flex-auto flex-wrap gap-x-2">
+                          <dt className="sr-only">Company</dt>
+                          <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
+                            Novulis
+                          </dd>
+                          <dt className="sr-only">Role</dt>
+                          <dd className="text-xs text-zinc-500 dark:text-zinc-400">
+                            VP of Engineering
+                          </dd>
+                          <dt className="sr-only">Date</dt>
+                          <dd
+                            className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
+                            aria-label="Jun 2026 until Present"
+                          >
+                            <time dateTime="2026-06">Jun 2026</time>{" "}
+                            <span aria-hidden="true">—</span>{" "}
+                            <time dateTime="Present">Present</time>
+                          </dd>
+                        </dl>
+                      </li>
+                      <li className="flex gap-4">
+                        <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                           <StaticImage
                             className="rounded-full h-9 w-9"
                             layout="fixed"
@@ -217,9 +245,9 @@ const BlogIndex = ({ data, location }) => {
                             className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
                             aria-label="Sep 2019 until Present"
                           >
-                            <time dateTime="2019">Jan 2025</time>{" "}
+                            <time dateTime="2025-01">Jan 2025</time>{" "}
                             <span aria-hidden="true">—</span>{" "}
-                            <time dateTime="2024">present</time>
+                            <time dateTime="2026-06">Jun 2026</time>
                           </dd>
                         </dl>
                       </li>

@@ -125,7 +125,7 @@ module.exports = {
         short_name: `Aravind Karnam`,
         start_url: `/`,
         display: `minimal-ui`,
-        icon: `src/images/profile-pic.jpeg`, // This path is relative to the root of the site.
+        icon: `src/images/profile-pic.png`, // This path is relative to the root of the site.
       },
     },
   ],
